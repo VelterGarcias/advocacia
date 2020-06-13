@@ -1,0 +1,314 @@
+
+    #header {
+        min-width: 320px;
+        width: 100%;
+        /* height: 60px; */
+        position: relative;
+        background-color: var(--bg-menu);
+    }
+
+    #header button  {
+        background: none;
+        border: none;
+        padding: 13px;
+        outline: none;
+        z-index: 12;
+    }
+
+    #header .menu {
+    transition: all 0.5s ease-in-out;
+    width: 150px;
+    height: 150px;
+    background-color: var(--bg-menu);
+    position: fixed;
+    right: -70px;
+    top: -70px;
+    border-radius: 100%;
+    z-index: 11;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 20px black;
+    }
+
+    #header .menu ul {
+        transition: all 1s ease-in-out;
+        display: none;
+        right: -300px;
+    }
+
+    div #uls {
+        flex-direction: column;
+        margin-top: 20vh;
+    }
+
+    #header .menu ul li {
+        padding: 14px 0;
+        width: 100%;
+        list-style: none;
+        justify-content: flex-end;
+    }
+
+    #header .menu ul li a {
+        text-decoration: none;
+        color: var(--color-menu);
+        font-size: 1.4em;
+        line-height: 5vh;
+    }
+
+    #header .menu ul li a:active {
+        color: var(--color-menu-active);
+        font-weight: bold;
+    }
+
+    #btn-open, #btn-close {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    #btn-close {
+        display: none;
+    }
+
+    .open-menu {
+        overflow: hidden;
+    }
+
+    .open-menu #btn-close {
+        display: flex;
+        position: fixed;
+    }
+
+
+    .open-menu #header .menu {
+        transition: all 0.5s ease-in-out;
+        width: 200vh;
+        height: 200vh;
+        /* background-color: var(--bg-menu); */
+        position: fixed;
+        right: -130vh;
+        top: -80vh;
+        border-radius: 100%;
+        z-index: 14;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0 0 20px black;
+    }
+
+    #overlay {
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+
+    .open-menu #overlay {
+        transition: all 0.5s ease-in-out;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--overlay);
+        z-index: 14;
+        display: flex;
+    }
+
+    .open-menu #header #logo,
+    .open-menu #header #logo.page {
+        transition: all 0.5s ease-in-out;
+        position: fixed;
+        width: 200px;
+        top: 4vh;
+        right: calc(50vw - 100px);
+    }
+
+    .open-menu #header .menu ul {
+        transition: all 1s ease-in-out;
+        display: flex;
+        position: fixed;
+        bottom: 20vh;
+        right: 10vw;
+        margin: 0 0 0 40px;
+        /* padding: 0;
+        width: 100%; */
+        flex-direction: column;
+    }
+
+
+/* Aqui vai o código pra quando a altura do display for menor que o normal  */
+    
+
+    #header #logo {
+        width: 150px;
+        position: absolute;
+        transition: all 1s ease-in-out;
+        left: initial;
+        right: calc(50vw - 75px);
+        top: calc(50vh - 50px);    
+        z-index: 15;
+        align-items: center;
+        -webkit-animation: fadeIn 0.5s linear;
+    }
+
+    #header #logo:hover {
+        transform: scale(1.03);
+        transition: all .2s ease-in-out;
+    }
+
+    #header #logo.page {
+        width: 150px;
+        position: absolute;
+        left: initial;
+        right: calc(75vw - 75px);
+        top: 0px;
+    }
+
+    @-webkit-keyframes fadeIn {
+        from {
+            filter: opacity(0%);
+        }
+        to {
+            filter: opacity(100%);
+        }
+    }
+
+/* @media (min-width: 430px) {
+
+    .open-menu #header .menu {
+        right: -115vh;
+    }
+
+
+} */
+
+@media (max-height: 475px) and (max-width: 767px){
+    .open-menu #header .menu {
+        right: -45vh;
+    }
+    .open-menu #header #logo,
+    .open-menu #header #logo.page {
+        right: calc(60vw - 100px);
+    }
+}
+
+@media (min-width: 390px) and (max-height: 600px) {
+
+    #header #logo,
+    #header #logo.page {
+        width: 140px;
+        position: absolute;
+        transition: all 1s ease-in-out;
+        top: 0;
+        right: 57vw;
+        z-index: 15;
+    }
+    
+
+}
+
+
+    
+@media (min-width: 768px) {
+
+    #header .menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: 261px;
+        background: linear-gradient(to bottom, #0c0c0c 0%, #333333ba 50%, #00000000 100%);
+        top: 0;
+        right: 0;
+        padding: 9px 0px 0px 174px;
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #header {
+        height: 250px;
+        background: none;
+        position: absolute;
+    }
+
+    
+    #header #logo,
+    #header #logo.page {
+        width: 140px;
+        position: absolute;
+        transition: all 1s ease-in-out;
+        top: 0;
+        left: 90px;
+        z-index: 15;
+    }
+
+    #btn-open, #btn-close {
+        display: none;
+    }
+
+    
+
+    #header .menu ul {
+        width: 100%;
+        height: initial;
+        background-color: initial;
+        position: relative;
+        right: initial;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+
+    #header .menu ul li {
+        flex: 1;
+        padding: 14px 20px 2px 20px;
+        /* min-width: 150px; */
+        list-style: none;
+        color: var(--color-menu);
+        border-bottom: 1px solid var(--under-menu);
+    }
+    #header .menu ul li:hover {
+        transform: scale(1.02);
+        transition: all .2s ease-in-out;
+    }
+
+    
+
+    #header .menu ul li a {
+        text-decoration: none;
+        color: var(--color-menu);
+        font-size: 1.2em;
+        white-space: nowrap;
+    } 
+
+    #header .menu ul li a:hover, #header .menu ul li a:active {
+        color: var(--color-menu-hover);
+        transition: all .2s ease-in-out;
+    }
+
+    div #uls {
+        flex-direction: row;
+        margin-top: 2vh;
+    }
+
+    #uls ul li {
+        padding: 14px;
+    }
+
+    #header .menu #uls #ul1 {
+        margin: 0;
+        margin-right: 90px;
+        /* top: 8vh;
+        left: -8vw; */
+    }
+
+    #header .menu #uls #ul2 {
+        margin: 0;
+        margin-left: 90px;
+        /* top: -2vh;
+        right: -34vw; */
+    }
+} 

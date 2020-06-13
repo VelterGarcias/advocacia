@@ -1,0 +1,597 @@
+
+#error.page {
+    flex-direction: column;
+    background-color: var(--bg);
+}
+
+#error.page header {
+    height: 100vh;
+    background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash.jpg');
+}
+
+#error.page .page-header .page-title {
+    position: relative;
+    bottom: initial;
+
+}
+
+#error.page .page-header h1 {
+    font-size: 6em;
+    line-height: 0.6em;
+    text-align: center;
+    margin-bottom: 28vh;
+    max-width: 500px;
+}
+
+#error.page .page-header h1 span {
+    font-size: .4em;
+    line-height: 0.4em;
+    color: var(--header-span);
+    text-shadow: 0 0 5px black;
+}
+
+
+#pratice-area {
+scroll-margin-top: -2em;
+}   
+
+#error.page .pratice-area {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    background-color: var(--bg-pratice-area);
+    box-shadow: inset 0 0 15px black;
+}
+
+#error.page .section-title {
+    display: flex;
+    flex-direction: column;
+}
+
+#error.page .section-title-hide {
+    display: none;
+}
+
+#error.page .section-title h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3em;
+    font-weight: bold;
+    padding-left: 30px;
+    color: var(--subtitle);
+    border-bottom: 4px solid var(--separator);
+}
+#error.page .section-title h2 span {
+    font-size: .6em;
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: normal;
+    color: var(--subtitle-span);
+}
+
+#error.page .section-title h2 span.span2 {
+    font-weight: bold;
+    color: var(--subtitle-span2);
+}
+
+#error.page .section-title p {
+    font-size: 1em;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+#error.page .pratice-area .services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#error.page .pratice-area .services .service {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: var(--bg-service);
+    box-shadow: 2px 2px 5px 0px var(--shadow-service);
+    transition: all 0.5s ease-in-out;
+}
+
+#error.page .pratice-area .services .service:hover {
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+#error.page .pratice-area .services .service a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+
+}
+
+#error.page .pratice-area .services .service img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    filter: brightness(75%);
+}
+#error.page .pratice-area .services .service .service-title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#error.page .pratice-area .services .service p {
+    align-self: center;
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--service-title);
+}
+
+
+
+/* Seção Nossa Equipe */
+
+#error.page .team {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    background-color: var(--bg-team);
+}
+
+#error.page .team .lawyers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#error.page .team .lawyers .lawyer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 40px 0;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0px var(--shadow-service);
+}
+
+#error.page .team .lawyers .lawyer .team-decoration {
+    position: absolute;
+    border: 4px solid var(--team-decoration);
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    bottom: 8px;
+}
+
+#error.page .team .lawyers .lawyer a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+
+}
+
+#error.page .team .lawyers .lawyer figure {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+}
+
+#error.page .team .lawyers .lawyer figure figcaption {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    background: var(--bg-team-figcaption);
+    padding: 5px 15px;
+    border-radius: 3px;
+    text-align-last: center;
+}
+
+#error.page .team .lawyers .lawyer figure figcaption h3 {
+    align-self: center;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: var(--service-title);
+}
+
+#error.page .team .lawyers .lawyer img {
+    width: 100%;
+    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
+}
+
+#error.page .team .lawyers .lawyer .lawyer-title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-team-description);
+    z-index: 1;
+    border-radius: 0 0 3px 3px;
+}
+
+#error.page .team .lawyers .lawyer .lawyer-title ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 35px 10px 5px 30px;
+    margin: 0;
+}
+
+#error.page .team .lawyers .lawyer .lawyer-title ul li {
+    display: list-item;
+    line-height: 1.5em;
+}
+
+#error.page .team .lawyers .lawyer .lawyer-title .team-social-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#error.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+    width: 40px;
+    margin: 10px 5px;
+}
+
+#error.page .team .lawyers .lawyer .lawyer-title .team-social-links img:hover,
+#error.page .team .lawyers .lawyer .lawyer-title .team-social-links img:active {
+    filter: invert()
+}
+
+/* Realizations */
+
+#error.page .realizations {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    background-image: url('/assets/images/logo/Advogarcias.svg'), linear-gradient(var(--bg-realizations), var(--gradient));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: overlay;
+}
+
+#error.page .realizations .all-realizations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#error.page .realizations .all-realizations .realization {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    /* border: 2px solid red; */
+    /* height: 130px; */
+    margin: 10px;
+    border-radius: 3px;
+}
+
+#error.page .realizations .all-realizations .realization img {
+    width: 100%;
+}
+
+#error.page .realizations .all-realizations .realization .realization-title {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#error.page .realizations .all-realizations .realization .realization-title p {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    color: var(--color-title);
+}
+
+#error.page .realizations .all-realizations .realization .realization-title h3 {
+    color: var(--color-subtitle);
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+/* Testimonials */
+
+#error.page .testimonials {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    min-height: 600px;
+    background-color: var(--bg-testimonials);
+}
+
+#error.page .testimonials .image-testimonials {
+    display: none;
+}
+
+#error.page .testimonials .main-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#error.page .testimonials .tabs {
+    position: relative;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+#error.page .testimonials .tab {
+    display: flex;
+    scroll-margin-top: 12em;
+}
+
+#error.page .testimonials .tab>a {
+    display: flex;
+}
+
+#error.page .testimonials .tab a {
+    opacity: 50%;
+}
+
+
+#error.page .testimonials .image1:hover,
+#error.page .testimonials .image2:hover,
+#error.page .testimonials .image3:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1) rotate(2deg);
+    
+}
+
+#error.page .testimonials .content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 100px;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    filter: opacity(0%);
+    transition: all .3s ease-in-out;
+}
+
+
+#error.page .testimonials li.show .content {
+    display: flex;
+    left: 0;
+    filter: opacity(100%);
+    transition: all 1s ease-in-out;
+    transition-delay: .3s;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 8px;
+}
+
+#error.page .testimonials .tab>a>div {
+    background-position: center center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#error.page .testimonials li.show a {
+    opacity: 100%;
+}
+
+#error.page .testimonials li.show a > div {
+    box-shadow: 0 0 13px black;
+}
+
+#error.page .testimonials .image1 {
+    background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.jpg");
+    transition: all .5s ease-in-out;
+}
+
+#error.page .testimonials .image2 {
+    background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.jpg");
+    transition: all .5s ease-in-out;
+}
+
+#error.page .testimonials .image3 {
+    background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.jpg");
+    transition: all .5s ease-in-out;
+}
+
+#error.page .testimonials .testimonial-container {
+    position: relative;
+    padding: 15px;
+}
+
+#error.page .testimonials p {
+    display: inline;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+#error.page .testimonials .qhote {
+    width: 17px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+#error.page .testimonials .testimonial-name {
+    font-weight: bold;
+}
+
+
+@media (min-width: 576px) {
+
+    
+
+    #error.page .pratice-area .services .service {
+        width: 230px;
+        height: 200px;
+    }
+
+    #error.page .section-title h2 {
+        font-size: 2.7em;
+    }
+
+    #error.page .pratice-area .services .service p {
+        font-size: 1.4em;
+    }
+
+    #error.page .team .lawyers .lawyer {
+        width: 55%;
+    }
+
+    #error.page .team .lawyers .lawyer figure figcaption h3 {
+        font-size: 1.8em;
+    }
+
+    #error.page .team .lawyers .lawyer .lawyer-title ul li {
+        font-size: 1.2em;
+    }
+
+    #error.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+        width: 50px;
+        margin: 10px 10px;
+    }
+
+    #error.page .realizations .all-realizations .realization .realization-title p {
+        font-size: 2.2em;
+    }
+
+    #error.page .realizations .all-realizations .realization .realization-title h3 {
+        font-size: 1.4em;
+    }
+
+    #error.page .testimonials .tab>a>div {
+        width: 100px;
+        height: 100px;
+    }
+
+    #error.page .testimonials .content {
+        top: 120px;
+    }
+
+    #error.page .testimonials .main-testimonials {
+        align-self: center;
+        width: 90%;
+        max-width: 670px;
+    }
+
+    #error.page .testimonials p {
+        font-size: 1.6em;
+    }
+
+    #error.page .testimonials {
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    
+    #error.page .team .lawyers {
+        align-items: flex-start;
+    }
+
+    #error.page .pratice-area .services {
+        width: 768px;
+        margin: auto;
+    }
+
+    #error.page .team .lawyers .lawyer {
+        width: 25%;
+        margin: 40px 20px;
+    }
+
+    #error.page .team .lawyers .lawyer figure figcaption h3 {
+        font-size: 1.2em;
+    }
+
+    #error.page .team .lawyers .lawyer .lawyer-title ul li {
+        font-size: 1em;
+    }
+
+    #error.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+        width: 35px;
+        margin: 10px 5px;
+    }
+
+    #error.page .team .lawyers .lawyer figure img {
+        filter: grayscale(1);
+        transition: all .5s ease-in-out;
+    }
+    
+    #error.page .team .lawyers .lawyer figure img:hover {
+        filter: none;
+        transition: all .5s ease-in-out;
+    }
+
+    #error.page .realizations {
+        background-size: contain;
+        background-position: right;
+    }
+
+    #error.page .realizations .all-realizations {
+        justify-content: flex-start;
+        padding-left: 8vw;
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+
+
+    #error.page .pratice-area .services {
+        width: 945px;
+        margin: 0;
+    }
+
+    #error.page .testimonials {
+        position: relative;
+    }
+    
+    #error.page .testimonials .main-testimonials {
+        align-self: flex-end;
+    }
+
+    #error.page .testimonials .image-testimonials {
+        display: flex;
+        width: 542px;
+        position: absolute;
+        left: -84px;
+        bottom: 0px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #error.page .testimonials .image-testimonials {
+        left: 6vw;
+    }
+
+    #error.page .testimonials .main-testimonials {
+        margin-right: 5vw;
+    }
+}

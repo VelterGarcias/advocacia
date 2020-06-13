@@ -1,0 +1,597 @@
+
+#services.page {
+    flex-direction: column;
+    background-color: var(--bg);
+}
+
+#services.page header {
+    height: 170px;
+    background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash.jpg');
+}
+
+#services.page .page-header .page-title {
+    position: relative;
+    bottom: initial;
+
+}
+
+#services.page .page-header h1 {
+    font-size: 6em;
+    line-height: 0.6em;
+    text-align: center;
+    margin-bottom: 28vh;
+    max-width: 500px;
+}
+
+#services.page .page-header h1 span {
+    font-size: .4em;
+    line-height: 0.4em;
+    color: var(--header-span);
+    text-shadow: 0 0 5px black;
+}
+
+
+#pratice-area {
+scroll-margin-top: -2em;
+}   
+
+#services.page .pratice-area {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    background-color: var(--bg-pratice-area);
+    box-shadow: inset 0 0 15px black;
+}
+
+#services.page .section-title {
+    display: flex;
+    flex-direction: column;
+}
+
+#services.page .section-title-hide {
+    display: none;
+}
+
+#services.page .section-title h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3em;
+    font-weight: bold;
+    padding-left: 30px;
+    color: var(--subtitle);
+    border-bottom: 4px solid var(--separator);
+}
+#services.page .section-title h2 span {
+    font-size: .6em;
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: normal;
+    color: var(--subtitle-span);
+}
+
+#services.page .section-title h2 span.span2 {
+    font-weight: bold;
+    color: var(--subtitle-span2);
+}
+
+#services.page .section-title p {
+    font-size: 1em;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+#services.page .pratice-area .services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#services.page .pratice-area .services .service {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: var(--bg-service);
+    box-shadow: 2px 2px 5px 0px var(--shadow-service);
+    transition: all 0.5s ease-in-out;
+}
+
+#services.page .pratice-area .services .service:hover {
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+#services.page .pratice-area .services .service a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+
+}
+
+#services.page .pratice-area .services .service img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    filter: brightness(75%);
+}
+#services.page .pratice-area .services .service .service-title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#services.page .pratice-area .services .service p {
+    align-self: center;
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--service-title);
+}
+
+
+
+/* Seção Nossa Equipe */
+
+#services.page .team {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    background-color: var(--bg-team);
+}
+
+#services.page .team .lawyers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#services.page .team .lawyers .lawyer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 40px 0;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0px var(--shadow-service);
+}
+
+#services.page .team .lawyers .lawyer .team-decoration {
+    position: absolute;
+    border: 4px solid var(--team-decoration);
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    bottom: 8px;
+}
+
+#services.page .team .lawyers .lawyer a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+
+}
+
+#services.page .team .lawyers .lawyer figure {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+}
+
+#services.page .team .lawyers .lawyer figure figcaption {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    background: var(--bg-team-figcaption);
+    padding: 5px 15px;
+    border-radius: 3px;
+    text-align-last: center;
+}
+
+#services.page .team .lawyers .lawyer figure figcaption h3 {
+    align-self: center;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: var(--service-title);
+}
+
+#services.page .team .lawyers .lawyer img {
+    width: 100%;
+    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
+}
+
+#services.page .team .lawyers .lawyer .lawyer-title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-team-description);
+    z-index: 1;
+    border-radius: 0 0 3px 3px;
+}
+
+#services.page .team .lawyers .lawyer .lawyer-title ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 35px 10px 5px 30px;
+    margin: 0;
+}
+
+#services.page .team .lawyers .lawyer .lawyer-title ul li {
+    display: list-item;
+    line-height: 1.5em;
+}
+
+#services.page .team .lawyers .lawyer .lawyer-title .team-social-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#services.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+    width: 40px;
+    margin: 10px 5px;
+}
+
+#services.page .team .lawyers .lawyer .lawyer-title .team-social-links img:hover,
+#services.page .team .lawyers .lawyer .lawyer-title .team-social-links img:active {
+    filter: invert()
+}
+
+/* Realizations */
+
+#services.page .realizations {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    background-image: url('/assets/images/logo/Advogarcias.svg'), linear-gradient(var(--bg-realizations), var(--gradient));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: overlay;
+}
+
+#services.page .realizations .all-realizations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#services.page .realizations .all-realizations .realization {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    /* border: 2px solid red; */
+    /* height: 130px; */
+    margin: 10px;
+    border-radius: 3px;
+}
+
+#services.page .realizations .all-realizations .realization img {
+    width: 100%;
+}
+
+#services.page .realizations .all-realizations .realization .realization-title {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#services.page .realizations .all-realizations .realization .realization-title p {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    color: var(--color-title);
+}
+
+#services.page .realizations .all-realizations .realization .realization-title h3 {
+    color: var(--color-subtitle);
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+/* Testimonials */
+
+#services.page .testimonials {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 80px 0px;
+    min-height: 600px;
+    background-color: var(--bg-testimonials);
+}
+
+#services.page .testimonials .image-testimonials {
+    display: none;
+}
+
+#services.page .testimonials .main-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services.page .testimonials .tabs {
+    position: relative;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+#services.page .testimonials .tab {
+    display: flex;
+    scroll-margin-top: 12em;
+}
+
+#services.page .testimonials .tab>a {
+    display: flex;
+}
+
+#services.page .testimonials .tab a {
+    opacity: 50%;
+}
+
+
+#services.page .testimonials .image1:hover,
+#services.page .testimonials .image2:hover,
+#services.page .testimonials .image3:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1) rotate(2deg);
+    
+}
+
+#services.page .testimonials .content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 100px;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    filter: opacity(0%);
+    transition: all .3s ease-in-out;
+}
+
+
+#services.page .testimonials li.show .content {
+    display: flex;
+    left: 0;
+    filter: opacity(100%);
+    transition: all 1s ease-in-out;
+    transition-delay: .3s;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 8px;
+}
+
+#services.page .testimonials .tab>a>div {
+    background-position: center center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#services.page .testimonials li.show a {
+    opacity: 100%;
+}
+
+#services.page .testimonials li.show a > div {
+    box-shadow: 0 0 13px black;
+}
+
+#services.page .testimonials .image1 {
+    background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.jpg");
+    transition: all .5s ease-in-out;
+}
+
+#services.page .testimonials .image2 {
+    background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.jpg");
+    transition: all .5s ease-in-out;
+}
+
+#services.page .testimonials .image3 {
+    background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.jpg");
+    transition: all .5s ease-in-out;
+}
+
+#services.page .testimonials .testimonial-container {
+    position: relative;
+    padding: 15px;
+}
+
+#services.page .testimonials p {
+    display: inline;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+#services.page .testimonials .qhote {
+    width: 17px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+#services.page .testimonials .testimonial-name {
+    font-weight: bold;
+}
+
+
+@media (min-width: 576px) {
+
+    
+
+    #services.page .pratice-area .services .service {
+        width: 230px;
+        height: 200px;
+    }
+
+    #services.page .section-title h2 {
+        font-size: 2.7em;
+    }
+
+    #services.page .pratice-area .services .service p {
+        font-size: 1.4em;
+    }
+
+    #services.page .team .lawyers .lawyer {
+        width: 55%;
+    }
+
+    #services.page .team .lawyers .lawyer figure figcaption h3 {
+        font-size: 1.8em;
+    }
+
+    #services.page .team .lawyers .lawyer .lawyer-title ul li {
+        font-size: 1.2em;
+    }
+
+    #services.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+        width: 50px;
+        margin: 10px 10px;
+    }
+
+    #services.page .realizations .all-realizations .realization .realization-title p {
+        font-size: 2.2em;
+    }
+
+    #services.page .realizations .all-realizations .realization .realization-title h3 {
+        font-size: 1.4em;
+    }
+
+    #services.page .testimonials .tab>a>div {
+        width: 100px;
+        height: 100px;
+    }
+
+    #services.page .testimonials .content {
+        top: 120px;
+    }
+
+    #services.page .testimonials .main-testimonials {
+        align-self: center;
+        width: 90%;
+        max-width: 670px;
+    }
+
+    #services.page .testimonials p {
+        font-size: 1.6em;
+    }
+
+    #services.page .testimonials {
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    
+    #services.page .team .lawyers {
+        align-items: flex-start;
+    }
+
+    #services.page .pratice-area .services {
+        width: 768px;
+        margin: auto;
+    }
+
+    #services.page .team .lawyers .lawyer {
+        width: 25%;
+        margin: 40px 20px;
+    }
+
+    #services.page .team .lawyers .lawyer figure figcaption h3 {
+        font-size: 1.2em;
+    }
+
+    #services.page .team .lawyers .lawyer .lawyer-title ul li {
+        font-size: 1em;
+    }
+
+    #services.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+        width: 35px;
+        margin: 10px 5px;
+    }
+
+    #services.page .team .lawyers .lawyer figure img {
+        filter: grayscale(1);
+        transition: all .5s ease-in-out;
+    }
+    
+    #services.page .team .lawyers .lawyer figure img:hover {
+        filter: none;
+        transition: all .5s ease-in-out;
+    }
+
+    #services.page .realizations {
+        background-size: contain;
+        background-position: right;
+    }
+
+    #services.page .realizations .all-realizations {
+        justify-content: flex-start;
+        padding-left: 8vw;
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+
+
+    #services.page .pratice-area .services {
+        width: 945px;
+        margin: 0;
+    }
+
+    #services.page .testimonials {
+        position: relative;
+    }
+    
+    #services.page .testimonials .main-testimonials {
+        align-self: flex-end;
+    }
+
+    #services.page .testimonials .image-testimonials {
+        display: flex;
+        width: 542px;
+        position: absolute;
+        left: -84px;
+        bottom: 0px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #services.page .testimonials .image-testimonials {
+        left: 6vw;
+    }
+
+    #services.page .testimonials .main-testimonials {
+        margin-right: 5vw;
+    }
+}

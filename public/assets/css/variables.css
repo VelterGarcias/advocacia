@@ -1,0 +1,61 @@
+:root {
+      /* Cores pra facilitar alteração do "Tema" */
+    --bg-menu: #2b2626;
+    --color-menu: #fff;
+    --title: #d30014;
+    --p-home:#fff;
+    --parag: #131515;
+    --bg: #464341;
+    --bg-buttons: #31251656;
+    --bg-buttons-hover: #31251656;
+
+    /* Menu */
+    --overlay:#212121CC;
+    --under-menu:#d30014;
+    --color-menu-hover:#d30014;
+    --color-menu-active:#d30014;
+
+    /* Services */
+    --bg-pratice-area:#2b2626;
+    /* --bg-service:#ab222fff; */
+    --bg-service:#d30014;
+    --shadow-service: #191919;
+    /* Team */
+    --bg-team:#fff;
+    --bg-service:#d30014;
+    --shadow-service: #191919;
+    --team-decoration:#d30014;
+    --bg-team-figcaption: #d30014cc;
+    --bg-team-description:#2b2626;
+
+    /* Realizations */
+    --bg-realizations:#212121;
+    --color-title:#fff;
+    --color-subtitle:#888;
+    --gradient:#000;
+
+    /* Testimonials */
+    --bg-testimonials:#e0e0e0;
+
+    /* Footer */
+    --bg-footer: #212121;
+    --footer-text: #fff;
+    --footer-title:#d30014;
+    --footer-hover:#d30014cc;
+    
+
+    --color-buttons: #fff;
+    --color-buttons-hover: #fff;
+    --separator: #d30014;
+    --service-title:#fff;
+  
+    --subtitle: #d30014;
+    --subtitle-span: #fff;
+    --subtitle-span2: #000;
+
+    --header-span:#fff;
+
+    
+    
+
+}
