@@ -142,7 +142,7 @@
         transition: all 1s ease-in-out;
         left: initial;
         right: calc(50vw - 75px);
-        top: calc(48vh - 50px);   
+        top: calc(44vh - 50px); 
         z-index: 15;
         align-items: center;
         -webkit-animation: fadeIn 0.5s linear;
