@@ -8,7 +8,7 @@
 
 #contacts.page header {
     height: 170px;
-    background-image: url('/assets/images/photos/drew-beamer-Se7vVKzYxTI-unsplash.jpg');
+    background-image: url('/assets/images/photos/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg');
     filter: brightness(0.5);
     box-shadow: 0 0 8px 3px black;
 }
@@ -52,6 +52,15 @@
 } */
 
 
+#contacts.page .row {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts.page .column {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* Pratice Área  */
@@ -334,6 +343,7 @@ form button:active {
 #contacts.page .opening-hours div p {
     margin: 0;
     color: white;
+    font-size: 1.3em;
 }
 
 
@@ -534,6 +544,11 @@ form button:active {
 
 @media (min-width: 576px) {
 
+    form {
+        width: 80%;
+        margin: auto;
+    }
+
     
 
     #contacts.page .blog-area .articles .card {
@@ -547,6 +562,13 @@ form button:active {
     #contacts.page .blog-area .articles .card p {
         font-size: 1.4em;
     }
+
+    #contacts.page .location a.map {
+        width: 90%;
+        margin: auto;
+        border-radius: 3px;
+    }
+
 /* 
     #contacts.page .team .cards-border .card-border {
         width: 70%;
@@ -598,6 +620,12 @@ form button:active {
 }
 
 @media (min-width: 768px) {
+    
+
+    form {
+        width: 70%;
+        margin: auto;
+    }
 
     #contacts.page .blog-area .articles .card {
         width: 90%;
@@ -614,6 +642,12 @@ form button:active {
         border-radius: 3px 0 0 3px;
         background-image: url("/assets/images/photos/laptop-3196481_1920.jpg");
         background-size: cover;
+    }
+
+    #contacts.page .location a.map {
+        width: 80%;
+        margin: auto;
+        border-radius: 3px;
     }
 
 
@@ -671,6 +705,46 @@ form button:active {
 
 @media (min-width: 992px) {
 
+
+    #contacts.page .row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    #contacts.page .column {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 50%;
+        box-shadow: 0 1px 10px 1px black;
+    }
+
+    #contacts.page .section-form {
+        width: 50%;
+    }
+
+
+    form {
+        width: 100%;
+        margin: 0;
+    }
+
+    #contacts.page .section-form {
+        padding: 0;
+    }
+
+    #contacts.page .opening-hours {
+        background-size: contain;
+        padding: 0 0 20px 0;
+    }
+
+    #contacts.page .location {
+        padding: 0;
+    }
+
+    #contacts.page .section-title.small h2 {
+        font-size: 1.7em;
+    }
 
     
 /* 

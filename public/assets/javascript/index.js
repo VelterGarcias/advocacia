@@ -24,23 +24,26 @@ closeMenu.forEach(el => {
     })
 })
 
-tab1.addEventListener('click', e => {
-    event.preventDefault();
-    tab1.classList.add("show");
-    tab2.classList.remove("show");
-    tab3.classList.remove("show");
-})
+//If para evitar erro no console quando não estiver na home
+if(tab1) {
+    tab1.addEventListener('click', e => {
+        event.preventDefault();
+        tab1.classList.add("show");
+        tab2.classList.remove("show");
+        tab3.classList.remove("show");
+    })
 
-tab2.addEventListener('click', e => {
-    event.preventDefault();
-    tab1.classList.remove("show");
-    tab2.classList.add("show");
-    tab3.classList.remove("show");
-})
+    tab2.addEventListener('click', e => {
+        event.preventDefault();
+        tab1.classList.remove("show");
+        tab2.classList.add("show");
+        tab3.classList.remove("show");
+    })
 
-tab3.addEventListener('click', e => {
-    event.preventDefault();
-    tab1.classList.remove("show");
-    tab2.classList.remove("show");
-    tab3.classList.add("show");
-})
+    tab3.addEventListener('click', e => {
+        event.preventDefault();
+        tab1.classList.remove("show");
+        tab2.classList.remove("show");
+        tab3.classList.add("show");
+    })
+}

@@ -45,69 +45,73 @@
     <main id="contacts" class="page">
         <header class="page-header">
         </header>
-
-        <section class="section-form">
-            <div class="section-title">
-                <div>
-                    <h2>
-                        <span class="span2">Formulário de</span>
-                        CONTATO
-                    </h2>
+        <div class="row">
+            <section class="section-form">
+                <div class="section-title">
+                    <div>
+                        <h2>
+                            <span class="span2">Formulário de</span>
+                            CONTATO
+                        </h2>
+                    </div>
                 </div>
-            </div>
-            <form >
-                <div class="fields">
+                <form >
+                    <div class="fields">
 
-                    <div class="field">
-                        <input type="text" name="name" id="name" placeholder="Digite o Nome">
-                        <label for="name">Nome</label>
+                        <div class="field">
+                            <input type="text" name="name" id="name" placeholder="Digite o Nome">
+                            <label for="name">Nome</label>
+                        </div>
+                        <div class="field">
+                            <input type="email" id="email" placeholder="email@email.com" required>
+                            <label for="email">E-mail</label>
+                        </div>
+
                     </div>
                     <div class="field">
-                        <input type="email" id="email" placeholder="email@email.com">
-                        <label for="email">E-mail</label>
+                        <textarea class="message" id="message"></textarea>
+                        <label for="message">Mensagem</label>
                     </div>
+                    <button type="submit">Enviar</button>
+                </form>
 
-                </div>
-                <div class="field">
-                    <textarea class="message" id="message"></textarea>
-                    <label for="message">Mensagem</label>
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
+            </section>
 
-        </section>
+            <div class="column">
 
-        <section class="opening-hours">
-            <div class="section-title">
-                <div>
-                    <h2>
-                        <span>Horários de</span>
-                        ATENDIMENTO
-                    </h2>
-                </div>
+                <section class="opening-hours">
+                    <div class="section-title small">
+                        <div>
+                            <h2>
+                                <span>Horários de</span>
+                                ATENDIMENTO
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="content" >
+                        <p>Segunda a Sexta das 9:00 às 17:30</p>
+                        <p>Sem fechar ao meio-dia.</p>
+                    </div>
+                    
+                    
+                </section>
+
+                <section class="location">
+                    <div class="section-title small">
+                        <div>
+                            <h2>
+                                <span class="span2">Nossa</span>
+                                LOCALIZAÇÃO
+                            </h2>
+                        </div>
+                    </div>
+                    <a class="map" href="https://goo.gl/maps/haNcnbxNYxRmSHJ67" title="Nossa Localização"></a>
+                    
+
+                </section>
+
             </div>
-            <div class="content" >
-                <p>Segunda a Sexta das 9:00 às 17:30</p>
-                <p>Sem fechar ao meio-dia.</p>
-            </div>
-            
-            
-        </section>
-
-        <section class="location">
-            <div class="section-title">
-                <div>
-                    <h2>
-                        <span class="span2">Nossa</span>
-                        LOCALIZAÇÃO
-                    </h2>
-                </div>
-            </div>
-            <a class="map" href="https://goo.gl/maps/haNcnbxNYxRmSHJ67" title="Nossa Localização"></a>
-            
-
-        </section>
-
+        </div>
     </main>
 
     <footer id="footer">
