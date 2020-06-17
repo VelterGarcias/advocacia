@@ -197,20 +197,20 @@
         position: absolute;
         transition: all 1s ease-in-out;
         top: 0;
-        right: 57vw;
+        right: calc(82vw - 70px);
         z-index: 15;
     }
     
 
 }
 
-@media (max-height: 560px) {
+@media (max-width: 390px) and (max-height: 540px) {
 
     #header #logo {
         width: 130px;
         transition: all 1s ease-in-out;
         right: calc(50vw - 65px);
-        top: calc(50vh - 65px);    
+        top: calc(40vh - 50px);    
     }
     
 
