@@ -6,7 +6,9 @@
 
 #services.page header {
     height: 170px;
-    background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash.jpg');
+    background-image: url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash.jpg');
+    filter: brightness(0.5);
+    box-shadow: 0 0 8px 3px black;
 }
 
 #services.page .page-header .page-title {
@@ -14,7 +16,7 @@
     bottom: initial;
 
 }
-
+/* 
 #services.page .page-header h1 {
     font-size: 6em;
     line-height: 0.6em;
@@ -28,8 +30,36 @@
     line-height: 0.4em;
     color: var(--header-span);
     text-shadow: 0 0 5px black;
+} */
+
+#civel,
+#trabalhista,
+#empresarial,
+#tributario,
+#consumidor,
+#familiar {
+    scroll-margin-top: 2em;
+} 
+
+
+#services.page .section-title {
+    display: flex;
+    flex-direction: column;
 }
 
+#services.page .section-title-hide {
+    display: none;
+}
+
+#services.page .section-title p {
+    font-size: 1em;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+
+
+/* Pratice Área 
 
 #pratice-area {
 scroll-margin-top: -2em;
@@ -41,43 +71,6 @@ scroll-margin-top: -2em;
     padding: 40px 0px 80px 0px;
     background-color: var(--bg-pratice-area);
     box-shadow: inset 0 0 15px black;
-}
-
-#services.page .section-title {
-    display: flex;
-    flex-direction: column;
-}
-
-#services.page .section-title-hide {
-    display: none;
-}
-
-#services.page .section-title h2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 2.3em;
-    font-weight: bold;
-    padding-left: 30px;
-    color: var(--subtitle);
-    border-bottom: 4px solid var(--separator);
-}
-#services.page .section-title h2 span {
-    font-size: .6em;
-    font-family: 'Satisfy';
-    font-style: normal;
-    font-weight: normal;
-    color: var(--subtitle-span);
-}
-
-#services.page .section-title h2 span.span2 {
-    font-weight: bold;
-    color: var(--subtitle-span2);
-}
-
-#services.page .section-title p {
-    font-size: 1em;
-    margin: 10px;
-    padding-left: 10px;
 }
 
 #services.page .pratice-area .services {
@@ -133,18 +126,23 @@ scroll-margin-top: -2em;
     color: var(--service-title);
 }
 
+ */
 
 
-/* Seção Nossa Equipe */
 
-#services.page .team {
+
+/* Seção Nossas Áreas de Atuação*/
+
+
+
+#services.page .pratice-areas {
     display: flex;
     flex-direction: column;
-    padding: 40px 0px 80px 0px;
+    padding: 0px 0px 80px 0px;
     background-color: var(--bg-team);
 }
 
-#services.page .team .lawyers {
+#services.page .pratice-areas .cards-border{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -153,7 +151,7 @@ scroll-margin-top: -2em;
     width: 100%;
 }
 
-#services.page .team .lawyers .lawyer {
+#services.page .pratice-areas .cards-border .card-border {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -163,7 +161,7 @@ scroll-margin-top: -2em;
     box-shadow: 2px 2px 5px 0px var(--shadow-service);
 }
 
-#services.page .team .lawyers .lawyer .team-decoration {
+#services.page .pratice-areas .cards-border .card-border .border {
     position: absolute;
     border: 4px solid var(--team-decoration);
     width: 100%;
@@ -172,7 +170,7 @@ scroll-margin-top: -2em;
     bottom: 8px;
 }
 
-#services.page .team .lawyers .lawyer a {
+#services.page .pratice-areas .cards-border .card-border a {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -180,7 +178,7 @@ scroll-margin-top: -2em;
 
 }
 
-#services.page .team .lawyers .lawyer figure {
+#services.page .pratice-areas .cards-border .card-border figure {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -189,17 +187,17 @@ scroll-margin-top: -2em;
     z-index: 2;
 }
 
-#services.page .team .lawyers .lawyer figure figcaption {
+#services.page .pratice-areas .cards-border .card-border figure figcaption {
     position: absolute;
     bottom: -20px;
     left: 10px;
     background: var(--bg-team-figcaption);
-    padding: 5px 15px;
+    padding: 5px 45px;
     border-radius: 3px;
     text-align-last: center;
 }
 
-#services.page .team .lawyers .lawyer figure figcaption h3 {
+#services.page .pratice-areas .cards-border .card-border figure figcaption h3 {
     align-self: center;
     margin: 0;
     font-size: 1.5em;
@@ -207,13 +205,13 @@ scroll-margin-top: -2em;
     color: var(--service-title);
 }
 
-#services.page .team .lawyers .lawyer img {
+#services.page .pratice-areas .cards-border .card-border img {
     width: 100%;
     border-radius: 3px;
     border-radius: 3px 3px 0 0;
 }
 
-#services.page .team .lawyers .lawyer .lawyer-title {
+#services.page .pratice-areas .cards-border .card-border  .card-border-title {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -224,37 +222,46 @@ scroll-margin-top: -2em;
     border-radius: 0 0 3px 3px;
 }
 
-#services.page .team .lawyers .lawyer .lawyer-title ul {
+#services.page .pratice-areas .cards-border .card-border  .card-border-title ul {
     display: flex;
     flex-direction: column;
+    width: 100%;
     color: white;
-    padding: 35px 10px 5px 30px;
+    padding: 35px 10px 5px 40px;
     margin: 0;
 }
 
-#services.page .team .lawyers .lawyer .lawyer-title ul li {
+#services.page .pratice-areas .cards-border .card-border  .card-border-title ul li {
     display: list-item;
     line-height: 1.5em;
+    padding: 10px;
+    padding-left: 0;
 }
 
-#services.page .team .lawyers .lawyer .lawyer-title .team-social-links {
+#services.page .pratice-areas .cards-border .card-border  .card-border-title .card-social-links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
 }
 
-#services.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
-    width: 40px;
-    margin: 10px 5px;
+#services.page .pratice-areas .cards-border .card-border  .card-border-title .card-social-links a {
+    color: var(--card-border-link);
+    background: var(--bg-team-figcaption);
+    padding: 5px 45px;
+    border-radius: 3px;
+    margin-top: 20px;
 }
 
-#services.page .team .lawyers .lawyer .lawyer-title .team-social-links img:hover,
-#services.page .team .lawyers .lawyer .lawyer-title .team-social-links img:active {
-    filter: invert()
+#services.page .pratice-areas .cards-border .card-border  .card-border-title .card-social-links a:hover,
+#services.page .pratice-areas .cards-border .card-border  .card-border-title .card-social-links a:active {
+    filter: drop-shadow(2px 4px 6px black);
+    background: var(--card-border-link-hover);
 }
 
+
+ 
 /* Realizations */
-
+/*
 #services.page .realizations {
     display: flex;
     flex-direction: column;
@@ -278,8 +285,6 @@ scroll-margin-top: -2em;
     display: flex;
     flex-direction: column;
     width: 120px;
-    /* border: 2px solid red; */
-    /* height: 130px; */
     margin: 10px;
     border-radius: 3px;
 }
@@ -309,9 +314,10 @@ scroll-margin-top: -2em;
     margin: 0;
     text-align: center;
 }
+*/
 
 /* Testimonials */
-
+/*
 #services.page .testimonials {
     display: flex;
     flex-direction: column;
@@ -439,42 +445,40 @@ scroll-margin-top: -2em;
 #services.page .testimonials .testimonial-name {
     font-weight: bold;
 }
+ */
 
 
 @media (min-width: 576px) {
 
     
-
+/* 
     #services.page .pratice-area .services .service {
         width: 230px;
         height: 200px;
-    }
+    } */
 
-    #services.page .section-title h2 {
-        font-size: 2.7em;
-    }
-
-    #services.page .pratice-area .services .service p {
+    
+    /* #services.page .pratice-area .services .service p {
         font-size: 1.4em;
+    } */
+
+    #services.page .pratice-areas .cards-border .card-border {
+        width: 70%;
     }
 
-    #services.page .team .lawyers .lawyer {
-        width: 55%;
-    }
-
-    #services.page .team .lawyers .lawyer figure figcaption h3 {
+    #services.page .pratice-areas .cards-border .card-border figure figcaption h3 {
         font-size: 1.8em;
     }
 
-    #services.page .team .lawyers .lawyer .lawyer-title ul li {
+    #services.page .pratice-areas .cards-border .card-border  .card-border-title ul li {
         font-size: 1.2em;
     }
 
-    #services.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+    #services.page .pratice-areas .cards-border .card-border  .card-border-title .card-social-links img {
         width: 50px;
         margin: 10px 10px;
     }
-
+/* 
     #services.page .realizations .all-realizations .realization .realization-title p {
         font-size: 2.2em;
     }
@@ -504,49 +508,49 @@ scroll-margin-top: -2em;
 
     #services.page .testimonials {
         min-height: 700px;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
 
     
-    #services.page .team .lawyers {
+    #services.page .pratice-areas .cards-border{
         align-items: flex-start;
     }
-
+/* 
     #services.page .pratice-area .services {
         width: 768px;
         margin: auto;
-    }
+    } */
 
-    #services.page .team .lawyers .lawyer {
-        width: 25%;
+    #services.page .pratice-areas .cards-border .card-border {
+        width: 44%;
         margin: 40px 20px;
     }
 
-    #services.page .team .lawyers .lawyer figure figcaption h3 {
+    #services.page .pratice-areas .cards-border .card-border figure figcaption h3 {
         font-size: 1.2em;
     }
 
-    #services.page .team .lawyers .lawyer .lawyer-title ul li {
+    #services.page .pratice-areas .cards-border .card-border  .card-border-title ul li {
         font-size: 1em;
     }
 
-    #services.page .team .lawyers .lawyer .lawyer-title .team-social-links img {
+    #services.page .pratice-areas .cards-border .card-border  .card-border-title .card-social-links img {
         width: 35px;
         margin: 10px 5px;
     }
 
-    #services.page .team .lawyers .lawyer figure img {
-        filter: grayscale(1);
-        transition: all .5s ease-in-out;
-    }
-    
-    #services.page .team .lawyers .lawyer figure img:hover {
+    #services.page .pratice-areas .cards-border .card-border figure img {
         filter: none;
         transition: all .5s ease-in-out;
     }
-
+    
+    #services.page .pratice-areas .cards-border .card-border figure img:hover {
+        filter: grayscale(1);
+        transition: all .5s ease-in-out;
+    }
+/* 
     #services.page .realizations {
         background-size: contain;
         background-position: right;
@@ -555,18 +559,18 @@ scroll-margin-top: -2em;
     #services.page .realizations .all-realizations {
         justify-content: flex-start;
         padding-left: 8vw;
-    }
+    } */
 
     
 }
 
 @media (min-width: 992px) {
 
-
+/* 
     #services.page .pratice-area .services {
         width: 945px;
         margin: 0;
-    }
+    } 
 
     #services.page .testimonials {
         position: relative;
@@ -583,15 +587,17 @@ scroll-margin-top: -2em;
         left: -84px;
         bottom: 0px;
     }
-
+*/
 }
 
 @media (min-width: 1200px) {
-    #services.page .testimonials .image-testimonials {
+
+    /* #services.page .testimonials .image-testimonials {
         left: 6vw;
     }
 
     #services.page .testimonials .main-testimonials {
         margin-right: 5vw;
     }
+     */
 }

@@ -55,6 +55,21 @@
 
     --header-span:#fff;
 
+    /* card-border */
+    --card-border-link:#fff;
+    --card-border-link-hover: #ff0019;
+
+    /* card */
+    --bg-card-content: #212121;
+    --card-content-p:#fff;
+    --bg-blog-area:#fff;
+
+    /* Form */
+    --form-border:#212121;
+    --form-hover:#d30014;
+    --bg-form-button:#212121;
+    --form-button:#fff;
+
     
     
 

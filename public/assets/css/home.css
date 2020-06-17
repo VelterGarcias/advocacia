@@ -32,7 +32,7 @@
 
 #home.home-page .page-header .gif-scroll {
     display: flex;
-    width: 150px;
+    width: 110px;
 }
 
 #pratice-area {
@@ -54,28 +54,6 @@ scroll-margin-top: -2em;
 
 #home.home-page .section-title-hide {
     display: none;
-}
-
-#home.home-page .section-title h2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 2.3em;
-    font-weight: bold;
-    padding-left: 30px;
-    color: var(--subtitle);
-    border-bottom: 4px solid var(--separator);
-}
-#home.home-page .section-title h2 span {
-    font-size: .6em;
-    font-family: 'Satisfy';
-    font-style: normal;
-    font-weight: normal;
-    color: var(--subtitle-span);
-}
-
-#home.home-page .section-title h2 span.span2 {
-    font-weight: bold;
-    color: var(--subtitle-span2);
 }
 
 #home.home-page .section-title p {
@@ -282,14 +260,13 @@ scroll-margin-top: -2em;
     display: flex;
     flex-direction: column;
     width: 120px;
-    /* border: 2px solid red; */
-    /* height: 130px; */
+    align-items: center;
     margin: 10px;
     border-radius: 3px;
 }
 
 #home.home-page .realizations .all-realizations .realization img {
-    width: 100%;
+    width: 75%;
 }
 
 #home.home-page .realizations .all-realizations .realization .realization-title {
@@ -300,7 +277,7 @@ scroll-margin-top: -2em;
 }
 
 #home.home-page .realizations .all-realizations .realization .realization-title p {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 0;
     color: var(--color-title);
@@ -320,7 +297,7 @@ scroll-margin-top: -2em;
     display: flex;
     flex-direction: column;
     padding: 40px 0px 80px 0px;
-    min-height: 600px;
+    min-height: 650px;
     background-color: var(--bg-testimonials);
 }
 
@@ -475,9 +452,6 @@ scroll-margin-top: -2em;
         height: 200px;
     }
 
-    #home.home-page .section-title h2 {
-        font-size: 2.7em;
-    }
 
     #home.home-page .pratice-area .services .service p {
         font-size: 1.4em;
@@ -498,14 +472,6 @@ scroll-margin-top: -2em;
     #home.home-page .team .lawyers .lawyer .lawyer-title .team-social-links img {
         width: 50px;
         margin: 10px 10px;
-    }
-
-    #home.home-page .realizations .all-realizations .realization .realization-title p {
-        font-size: 2.2em;
-    }
-
-    #home.home-page .realizations .all-realizations .realization .realization-title h3 {
-        font-size: 1.4em;
     }
 
     #home.home-page .testimonials .tab>a>div {
@@ -544,6 +510,7 @@ scroll-margin-top: -2em;
         display: flex;
     }
 
+    
     #home.home-page .page-header .home-title {
         display: flex;
         flex-direction: column;
@@ -612,6 +579,8 @@ scroll-margin-top: -2em;
 
 @media (min-width: 992px) {
 
+    
+
 
     #home.home-page .pratice-area .services {
         width: 945px;
@@ -637,6 +606,7 @@ scroll-margin-top: -2em;
 }
 
 @media (min-width: 1200px) {
+    
     #home.home-page .testimonials .image-testimonials {
         left: 6vw;
     }
@@ -644,4 +614,10 @@ scroll-margin-top: -2em;
     #home.home-page .testimonials .main-testimonials {
         margin-right: 5vw;
     }
+
+    #home.home-page .realizations .all-realizations {
+        justify-content: center;
+        padding-left: initial;
+    }
+
 }

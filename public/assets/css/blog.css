@@ -1,42 +1,40 @@
 
-
-
-#contacts.page {
+#blog.page {
     flex-direction: column;
     background-color: var(--bg);
 }
 
-#contacts.page header {
+#blog.page header {
     height: 170px;
     background-image: url('/assets/images/photos/drew-beamer-Se7vVKzYxTI-unsplash.jpg');
     filter: brightness(0.5);
     box-shadow: 0 0 8px 3px black;
 }
 
-#contacts.page .page-header .page-title {
+#blog.page .page-header .page-title {
     position: relative;
     bottom: initial;
 
 }
 
 
-#contacts.page .section-title {
+#blog.page .section-title {
     display: flex;
     flex-direction: column;
 }
 
-#contacts.page .section-title-hide {
+#blog.page .section-title-hide {
     display: none;
 }
 
-#contacts.page .section-title p {
+#blog.page .section-title p {
     font-size: 1em;
     margin: 10px;
     padding-left: 10px;
 }
 
 
-/* #contacts.page .page-header h1 {
+/* #blog.page .page-header h1 {
     font-size: 6em;
     line-height: 0.6em;
     text-align: center;
@@ -44,7 +42,7 @@
     max-width: 500px;
 }
 
-#contacts.page .page-header h1 span {
+#blog.page .page-header h1 span {
     font-size: .4em;
     line-height: 0.4em;
     color: var(--header-span);
@@ -60,7 +58,7 @@
 scroll-margin-top: -2em;
 }   
 
-#contacts.page .blog-area {
+#blog.page .blog-area {
     display: flex;
     flex-direction: column;
     padding: 0px 0px 80px 0px;  
@@ -68,7 +66,7 @@ scroll-margin-top: -2em;
     box-shadow: inset 0 0 15px black;
 }
 
-#contacts.page .blog-area .articles {
+#blog.page .blog-area .articles {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,7 +75,7 @@ scroll-margin-top: -2em;
     width: 100%;
 }
 
-#contacts.page .blog-area .articles .card {
+#blog.page .blog-area .articles .card {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -89,39 +87,39 @@ scroll-margin-top: -2em;
     transition: all 0.5s ease-in-out;
 }
 
-#contacts.page .blog-area .articles .card:hover {
+#blog.page .blog-area .articles .card:hover {
     filter: grayscale(30%);
     transition: all 0.5s ease-in-out;
 }
 /* 
-#contacts.page .blog-area .articles .card a {
+#blog.page .blog-area .articles .card a {
     display: flex;
     flex-direction: column;
     height: 100%;
     text-decoration: none;
 
 } */
-#contacts.page .blog-area .articles .card #card-img-1 {
+#blog.page .blog-area .articles .card #card-img-1 {
     background-image: url("/assets/images/photos/harmen-jelle-van-mourik-0yfWDwHOB0g-unsplash.jpg");
 }
 
-#contacts.page .blog-area .articles .card #card-img-2 {
+#blog.page .blog-area .articles .card #card-img-2 {
     background-image: url("/assets/images/photos/alex-kotliarskyi-QBpZGqEMsKg-unsplash (1).jpg");
 }
 
-#contacts.page .blog-area .articles .card #card-img-3 {
+#blog.page .blog-area .articles .card #card-img-3 {
     background-image: url("/assets/images/photos/cdc-VRpjDw3WqqI-unsplash.jpg");
 }
 
-#contacts.page .blog-area .articles .card #card-img-4 {
+#blog.page .blog-area .articles .card #card-img-4 {
     background-image: url("/assets/images/photos/harli-marten-M9jrKDXOQoU-unsplash.jpg");
 }
 
-#contacts.page .blog-area .articles .card #card-img-5 {
+#blog.page .blog-area .articles .card #card-img-5 {
     background-image: url("/assets/images/photos/alexander-mils-lCPhGxs7pww-unsplash.jpg");
 }
 
-#contacts.page .blog-area .articles .card .card-img {
+#blog.page .blog-area .articles .card .card-img {
     height: 230px;
     border-radius: 3px 3px 0 0;
     background-size: cover;
@@ -129,13 +127,13 @@ scroll-margin-top: -2em;
     filter: brightness(75%);
 }
 
-#contacts.page .blog-area .articles .card .card-title {
+#blog.page .blog-area .articles .card .card-title {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-#contacts.page .blog-area .articles .card p {
+#blog.page .blog-area .articles .card p {
     align-self: center;
     margin: 0;
     padding: 7px;
@@ -144,23 +142,23 @@ scroll-margin-top: -2em;
     color: var(--service-title);
 }
 
-#contacts.page .blog-area .articles .content {
+#blog.page .blog-area .articles .content {
     display: flex;
     flex-direction: column;
 }
 
-#contacts.page .blog-area .articles .content .card-text {
+#blog.page .blog-area .articles .content .card-text {
     padding: 20px 10px;
     background-color: var(--bg-card-content);
     flex: 1;
 }
-#contacts.page .blog-area .articles .content .card-text p {
+#blog.page .blog-area .articles .content .card-text p {
     color: var(--card-content-p);
     font-size: 1em;
     font-weight: normal;
 }
 
-#contacts.page .blog-area .articles .content .card-bottom {
+#blog.page .blog-area .articles .content .card-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -170,7 +168,7 @@ scroll-margin-top: -2em;
 }
 
 
-#contacts.page .blog-area .articles .content .card-bottom a {
+#blog.page .blog-area .articles .content .card-bottom a {
     text-decoration: none;
     color: var(--card-border-link);
     background: var(--bg-team-figcaption);
@@ -179,8 +177,8 @@ scroll-margin-top: -2em;
     transition: all .3s ease-in-out;
 }
 
-#contacts.page .blog-area .articles .content .card-bottom a:hover,
-#contacts.page .blog-area .articles .content .card-bottom a:active {
+#blog.page .blog-area .articles .content .card-bottom a:hover,
+#blog.page .blog-area .articles .content .card-bottom a:active {
     filter: drop-shadow(2px 4px 6px black);
     background: var(--card-border-link-hover);
     transition: all .3s ease-in-out;
@@ -188,14 +186,14 @@ scroll-margin-top: -2em;
 
 
 
-#contacts.page .blog-area .articles .content .card-bottom p {
+#blog.page .blog-area .articles .content .card-bottom p {
     color: var(--card-content-p);
     font-size: .8em;
     padding-left: 17px;
     font-weight: normal;
 }
 
-#contacts.page .blog-area .articles .content {
+#blog.page .blog-area .articles .content {
     width: 100%;
 }
 
@@ -208,112 +206,134 @@ scroll-margin-top: -2em;
 
 
 
-/* Seção do Formulário */
-
-#contacts.page .section-form {
+/* Seção Nossa Equipe */
+/* 
+#blog.page .team {
     display: flex;
     flex-direction: column;
     padding: 0px 0px 80px 0px;
     background-color: var(--bg-team);
 }
 
-form {
-    flex-direction: column;
-    padding: 1em;
+#blog.page .team .cards-border{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
-form .fields {
-    flex-direction: column;
-}
-
- form .field {
+#blog.page .team .cards-border .card-border {
     position: relative;
+    display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-bottom: 1em;
-}
-
- form .field label {
-    color: var(--grayC);
-    font-weight: bold;
-    font-size: 14px;
-    position: absolute;
-    z-index: 2;
-    left: 10px;
-    top: 10px;
-    transition: color .3s ease-in-out;
-}
-
- form .field input,
- form .field textarea {
-    line-height: 1.5em;
-    padding: 10px;
-    padding-top: 30px;
-    font-size: 16px;
-    font-weight: normal;
-    outline: none;
-    color: var(--gray5);
-    border: var(--form-border) 2px solid;
+    width: 85%;
+    margin: 40px 0;
     border-radius: 3px;
+    box-shadow: 2px 2px 5px 0px var(--shadow-service);
+}
+
+#blog.page .team .cards-border .card-border .border {
+    position: absolute;
+    border: 4px solid var(--team-decoration);
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    bottom: 8px;
+}
+
+#blog.page .team .cards-border .card-border a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+
+}
+
+#blog.page .team .cards-border .card-border figure {
     position: relative;
-    z-index: 1;
-    top: 0;
-    transition: border-color .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
 }
 
-form .field input:focus,
-form .field textarea:focus {
-    border-color: var(--form-hover);
+#blog.page .team .cards-border .card-border figure figcaption {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    background: var(--bg-team-figcaption);
+    padding: 5px 45px;
+    border-radius: 3px;
+    text-align-last: center;
 }
 
-form .field input:focus + label,
-form .field textarea:focus + label {
-    color: var(--form-hover);
+#blog.page .team .cards-border .card-border figure figcaption h3 {
+    align-self: center;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: var(--service-title);
 }
 
-form .actions {
+#blog.page .team .cards-border .card-border img {
+    width: 100%;
+    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
+}
+
+#blog.page .team .cards-border .card-border  .card-border-title {
+    display: flex;
     flex-direction: column;
     align-content: center;
-}
-
-form .actions a {
-    display: block;
-    text-align: center;
-    padding: 1em;
-    color: var(--gray6);
-}
-
-
-  form button {
-    width: 100%;
-    background-color: var(--bg-form-button);
-    color: var(--form-button);
-    border: none;
-    padding: .5em 1em;
-    justify-content: center;
     align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 5px;
-    outline: none;
-    transition: all .3s ease-in-out;
-}   
-
-form button:hover {
-    background-color: var(--form-hover);
-    cursor: pointer;
-    transition: all .3s ease-in-out;
+    justify-content: center;
+    background: var(--bg-team-description);
+    z-index: 1;
+    border-radius: 0 0 3px 3px;
 }
 
-form button:active {
-    background-color: var(--form-hover);
+#blog.page .team .cards-border .card-border  .card-border-title ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    padding: 35px 10px 5px 40px;
+    margin: 0;
 }
 
+#blog.page .team .cards-border .card-border  .card-border-title ul li {
+    display: list-item;
+    line-height: 1.5em;
+    padding: 10px;
+    padding-left: 0;
+}
+
+#blog.page .team .cards-border .card-border  .card-border-title .card-social-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#blog.page .team .cards-border .card-border  .card-border-title .card-social-links a {
+    color: var(--card-border-link);
+    background: var(--bg-team-figcaption);
+    padding: 5px 45px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#blog.page .team .cards-border .card-border  .card-border-title .card-social-links a:hover,
+#blog.page .team .cards-border .card-border  .card-border-title .card-social-links a:active {
+    filter: drop-shadow(2px 4px 6px black);
+    background: var(--card-border-link-hover);
+} */
 
 /* Realizations */
-
-#contacts.page .opening-hours {
+/* 
+#blog.page .realizations {
     display: flex;
     flex-direction: column;
     padding: 40px 0px 80px 0px;
@@ -324,23 +344,7 @@ form button:active {
     background-blend-mode: overlay;
 }
 
-#contacts.page .opening-hours .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#contacts.page .opening-hours div p {
-    margin: 0;
-    color: white;
-}
-
-
-
-
-/* 
-#contacts.page .realizations .all-realizations {
+#blog.page .realizations .all-realizations {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -348,7 +352,7 @@ form button:active {
     justify-content: center;
 }
 
-#contacts.page .realizations .all-realizations .realization {
+#blog.page .realizations .all-realizations .realization {
     display: flex;
     flex-direction: column;
     width: 120px;
@@ -356,25 +360,25 @@ form button:active {
     border-radius: 3px;
 }
 
-#contacts.page .realizations .all-realizations .realization img {
+#blog.page .realizations .all-realizations .realization img {
     width: 100%;
 }
 
-#contacts.page .realizations .all-realizations .realization .realization-title {
+#blog.page .realizations .all-realizations .realization .realization-title {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
 }
 
-#contacts.page .realizations .all-realizations .realization .realization-title p {
+#blog.page .realizations .all-realizations .realization .realization-title p {
     font-size: 2em;
     font-weight: bold;
     margin: 0;
     color: var(--color-title);
 }
 
-#contacts.page .realizations .all-realizations .realization .realization-title h3 {
+#blog.page .realizations .all-realizations .realization .realization-title h3 {
     color: var(--color-subtitle);
     font-size: 1.2em;
     font-weight: normal;
@@ -384,45 +388,27 @@ form button:active {
 */
 
 /* Testimonials */
-
-
-
-#contacts.page .location {
+/*
+#blog.page .testimonials {
     display: flex;
     flex-direction: column;
     padding: 40px 0px 80px 0px;
+    min-height: 600px;
     background-color: var(--bg-testimonials);
 }
 
-#contacts.page .location a.map {
-    width: 100%;
-    height: 300px;
-    background-image: url("/assets/images/photos/google-maps.png");
-    background-size: 200%;
-    background-position: center;
-    box-shadow: 0 0 3px #000000ab;
-    transition: all .3s ease-in-out;
-}
-
-#contacts.page .location a.map:hover,
-#contacts.page .location a.map:active {
-    filter: brightness(0.7);
-    transition: all .3s ease-in-out;
-}
-
-
-#contacts.page .testimonials .image-testimonials {
+#blog.page .testimonials .image-testimonials {
     display: none;
 }
 
-#contacts.page .testimonials .main-testimonials {
+#blog.page .testimonials .main-testimonials {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#contacts.page .testimonials .tabs {
+#blog.page .testimonials .tabs {
     position: relative;
     display: flex;
     width: 80%;
@@ -431,29 +417,29 @@ form button:active {
     justify-content: space-evenly;
 }
 
-#contacts.page .testimonials .tab {
+#blog.page .testimonials .tab {
     display: flex;
     scroll-margin-top: 12em;
 }
 
-#contacts.page .testimonials .tab>a {
+#blog.page .testimonials .tab>a {
     display: flex;
 }
 
-#contacts.page .testimonials .tab a {
+#blog.page .testimonials .tab a {
     opacity: 50%;
 }
 
 
-#contacts.page .testimonials .image1:hover,
-#contacts.page .testimonials .image2:hover,
-#contacts.page .testimonials .image3:hover {
+#blog.page .testimonials .image1:hover,
+#blog.page .testimonials .image2:hover,
+#blog.page .testimonials .image3:hover {
     transition: all .5s ease-in-out;
     transform: scale(1.1) rotate(2deg);
     
 }
 
-#contacts.page .testimonials .content {
+#blog.page .testimonials .content {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -469,7 +455,7 @@ form button:active {
 }
 
 
-#contacts.page .testimonials li.show .content {
+#blog.page .testimonials li.show .content {
     display: flex;
     left: 0;
     filter: opacity(100%);
@@ -479,7 +465,7 @@ form button:active {
     border-radius: 8px;
 }
 
-#contacts.page .testimonials .tab>a>div {
+#blog.page .testimonials .tab>a>div {
     background-position: center center;
     background-size: cover;
     width: 80px;
@@ -487,128 +473,128 @@ form button:active {
     border-radius: 50%;
 }
 
-#contacts.page .testimonials li.show a {
+#blog.page .testimonials li.show a {
     opacity: 100%;
 }
 
-#contacts.page .testimonials li.show a > div {
+#blog.page .testimonials li.show a > div {
     box-shadow: 0 0 13px black;
 }
 
-#contacts.page .testimonials .image1 {
+#blog.page .testimonials .image1 {
     background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.jpg");
     transition: all .5s ease-in-out;
 }
 
-#contacts.page .testimonials .image2 {
+#blog.page .testimonials .image2 {
     background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.jpg");
     transition: all .5s ease-in-out;
 }
 
-#contacts.page .testimonials .image3 {
+#blog.page .testimonials .image3 {
     background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.jpg");
     transition: all .5s ease-in-out;
 }
 
-#contacts.page .testimonials .testimonial-container {
+#blog.page .testimonials .testimonial-container {
     position: relative;
     padding: 15px;
 }
 
-#contacts.page .testimonials p {
+#blog.page .testimonials p {
     display: inline;
     margin: 0;
     font-size: 1.3em;
 }
 
-#contacts.page .testimonials .qhote {
+#blog.page .testimonials .qhote {
     width: 17px;
     margin-right: 3px;
     margin-left: 3px;
 }
 
-#contacts.page .testimonials .testimonial-name {
+#blog.page .testimonials .testimonial-name {
     font-weight: bold;
 }
- 
+ */
 
 @media (min-width: 576px) {
 
     
 
-    #contacts.page .blog-area .articles .card {
+    #blog.page .blog-area .articles .card {
         width: 80%;
     }
 
-    #contacts.page .section-title h2 {
+    #blog.page .section-title h2 {
         font-size: 2.7em;
     }
 
-    #contacts.page .blog-area .articles .card p {
+    #blog.page .blog-area .articles .card p {
         font-size: 1.4em;
     }
 /* 
-    #contacts.page .team .cards-border .card-border {
+    #blog.page .team .cards-border .card-border {
         width: 70%;
     }
 
-    #contacts.page .team .cards-border .card-border figure figcaption h3 {
+    #blog.page .team .cards-border .card-border figure figcaption h3 {
         font-size: 1.8em;
     }
 
-    #contacts.page .team .cards-border .card-border  .card-border-title ul li {
+    #blog.page .team .cards-border .card-border  .card-border-title ul li {
         font-size: 1.2em;
     }
 
-    #contacts.page .team .cards-border .card-border  .card-border-title .card-social-links img {
+    #blog.page .team .cards-border .card-border  .card-border-title .card-social-links img {
         width: 50px;
         margin: 10px 10px;
     }
 
-    #contacts.page .realizations .all-realizations .realization .realization-title p {
+    #blog.page .realizations .all-realizations .realization .realization-title p {
         font-size: 2.2em;
     }
 
-    #contacts.page .realizations .all-realizations .realization .realization-title h3 {
+    #blog.page .realizations .all-realizations .realization .realization-title h3 {
         font-size: 1.4em;
     }
 
-    #contacts.page .testimonials .tab>a>div {
+    #blog.page .testimonials .tab>a>div {
         width: 100px;
         height: 100px;
     }
 
-    #contacts.page .testimonials .content {
+    #blog.page .testimonials .content {
         top: 120px;
     }
 
-    #contacts.page .testimonials .main-testimonials {
+    #blog.page .testimonials .main-testimonials {
         align-self: center;
         width: 90%;
         max-width: 670px;
     }
 
-    #contacts.page .testimonials p {
+    #blog.page .testimonials p {
         font-size: 1.6em;
     }
 
-    #contacts.page .testimonials {
+    #blog.page .testimonials {
         min-height: 700px;
     } */
 }
 
 @media (min-width: 768px) {
 
-    #contacts.page .blog-area .articles .card {
+    #blog.page .blog-area .articles .card {
         width: 90%;
         flex-direction: row;
     }
 
-    #contacts.page .blog-area .articles .content {
+    #blog.page .blog-area .articles .content {
         width: 60%;
     }
 
-    #contacts.page .blog-area .articles .card .card-img {
+    #blog.page .blog-area .articles .card .card-img {
         height: initial;
         width: 40%;
         border-radius: 3px 0 0 3px;
@@ -617,51 +603,51 @@ form button:active {
     }
 
 
-    /* #contacts.page .blog-area .articles .card {
+    /* #blog.page .blog-area .articles .card {
         width: 60%;
     } */
 
 /*     
-    #contacts.page .team .cards-border{
+    #blog.page .team .cards-border{
         align-items: flex-start;
     } */
 
     
 /* 
-    #contacts.page .team .cards-border .card-border {
+    #blog.page .team .cards-border .card-border {
         width: 44%;
         margin: 40px 20px;
     }
 
-    #contacts.page .team .cards-border .card-border figure figcaption h3 {
+    #blog.page .team .cards-border .card-border figure figcaption h3 {
         font-size: 1.2em;
     }
 
-    #contacts.page .team .cards-border .card-border  .card-border-title ul li {
+    #blog.page .team .cards-border .card-border  .card-border-title ul li {
         font-size: 1em;
     }
 
-    #contacts.page .team .cards-border .card-border  .card-border-title .card-social-links img {
+    #blog.page .team .cards-border .card-border  .card-border-title .card-social-links img {
         width: 35px;
         margin: 10px 5px;
     }
 
-    #contacts.page .team .cards-border .card-border figure img {
+    #blog.page .team .cards-border .card-border figure img {
         filter: none;
         transition: all .5s ease-in-out;
     }
     
-    #contacts.page .team .cards-border .card-border figure img:hover {
+    #blog.page .team .cards-border .card-border figure img:hover {
         filter: grayscale(1);
         transition: all .5s ease-in-out;
     }
 
-    #contacts.page .realizations {
+    #blog.page .realizations {
         background-size: contain;
         background-position: right;
     }
 
-    #contacts.page .realizations .all-realizations {
+    #blog.page .realizations .all-realizations {
         justify-content: flex-start;
         padding-left: 8vw;
     } */
@@ -674,15 +660,15 @@ form button:active {
 
     
 /* 
-    #contacts.page .testimonials {
+    #blog.page .testimonials {
         position: relative;
     }
     
-    #contacts.page .testimonials .main-testimonials {
+    #blog.page .testimonials .main-testimonials {
         align-self: flex-end;
     }
 
-    #contacts.page .testimonials .image-testimonials {
+    #blog.page .testimonials .image-testimonials {
         display: flex;
         width: 542px;
         position: absolute;
@@ -695,28 +681,28 @@ form button:active {
 @media (min-width: 1200px) {
     
 
-    #contacts.page .blog-area .articles .card {
+    #blog.page .blog-area .articles .card {
         width: 80%;
     }
 
-    #contacts.page .blog-area .articles .card p {
+    #blog.page .blog-area .articles .card p {
         font-size: 1.6em;
     }
 
-    #contacts.page .blog-area .articles .content .card-text p {
+    #blog.page .blog-area .articles .content .card-text p {
         font-size: 1.2em;
     }
 
-    #contacts.page .blog-area .articles .content .card-bottom p {
+    #blog.page .blog-area .articles .content .card-bottom p {
         font-size: 1em;
     }
 
 /*     
-    #contacts.page .testimonials .image-testimonials {
+    #blog.page .testimonials .image-testimonials {
         left: 6vw;
     }
 
-    #contacts.page .testimonials .main-testimonials {
+    #blog.page .testimonials .main-testimonials {
         margin-right: 5vw;
     } */
 }

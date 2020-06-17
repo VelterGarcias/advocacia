@@ -11,7 +11,7 @@
 
     "liveServer.settings.ignoreFiles" : [
 
-        ".vscode/**"
+        ".vscode/**" 
 
     ]
 }
