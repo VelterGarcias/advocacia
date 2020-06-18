@@ -6,7 +6,7 @@
 
 #services.page header {
     height: 170px;
-    background-image: url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash.jpg');
+    background-image: url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash.png');
     filter: brightness(0.5);
     box-shadow: 0 0 8px 3px black;
 }
@@ -16,21 +16,7 @@
     bottom: initial;
 
 }
-/* 
-#services.page .page-header h1 {
-    font-size: 6em;
-    line-height: 0.6em;
-    text-align: center;
-    margin-bottom: 28vh;
-    max-width: 500px;
-}
 
-#services.page .page-header h1 span {
-    font-size: .4em;
-    line-height: 0.4em;
-    color: var(--header-span);
-    text-shadow: 0 0 5px black;
-} */
 
 #civel,
 #trabalhista,
@@ -56,79 +42,6 @@
     margin: 10px;
     padding-left: 10px;
 }
-
-
-
-/* Pratice Área 
-
-#pratice-area {
-scroll-margin-top: -2em;
-}   
-
-#services.page .pratice-area {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 0px 80px 0px;
-    background-color: var(--bg-pratice-area);
-    box-shadow: inset 0 0 15px black;
-}
-
-#services.page .pratice-area .services {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-#services.page .pratice-area .services .service {
-    display: flex;
-    flex-direction: column;
-    width: 140px;
-    height: 130px;
-    margin: 10px;
-    border-radius: 3px;
-    background-color: var(--bg-service);
-    box-shadow: 2px 2px 5px 0px var(--shadow-service);
-    transition: all 0.5s ease-in-out;
-}
-
-#services.page .pratice-area .services .service:hover {
-    filter: grayscale(100%);
-    transition: all 0.5s ease-in-out;
-}
-
-#services.page .pratice-area .services .service a {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    text-decoration: none;
-
-}
-
-#services.page .pratice-area .services .service img {
-    width: 100%;
-    border-radius: 3px 3px 0 0;
-    filter: brightness(75%);
-}
-#services.page .pratice-area .services .service .service-title {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex: 1;
-}
-
-#services.page .pratice-area .services .service p {
-    align-self: center;
-    margin: 0;
-    font-size: 1.2em;
-    color: var(--service-title);
-}
-
- */
-
-
 
 
 /* Seção Nossas Áreas de Atuação*/
@@ -259,208 +172,8 @@ scroll-margin-top: -2em;
 }
 
 
- 
-/* Realizations */
-/*
-#services.page .realizations {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 0px 80px 0px;
-    background-image: url('/assets/images/logo/Advogarcias.svg'), linear-gradient(var(--bg-realizations), var(--gradient));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-blend-mode: overlay;
-}
-
-#services.page .realizations .all-realizations {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-#services.page .realizations .all-realizations .realization {
-    display: flex;
-    flex-direction: column;
-    width: 120px;
-    margin: 10px;
-    border-radius: 3px;
-}
-
-#services.page .realizations .all-realizations .realization img {
-    width: 100%;
-}
-
-#services.page .realizations .all-realizations .realization .realization-title {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-}
-
-#services.page .realizations .all-realizations .realization .realization-title p {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 0;
-    color: var(--color-title);
-}
-
-#services.page .realizations .all-realizations .realization .realization-title h3 {
-    color: var(--color-subtitle);
-    font-size: 1.2em;
-    font-weight: normal;
-    margin: 0;
-    text-align: center;
-}
-*/
-
-/* Testimonials */
-/*
-#services.page .testimonials {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 0px 80px 0px;
-    min-height: 600px;
-    background-color: var(--bg-testimonials);
-}
-
-#services.page .testimonials .image-testimonials {
-    display: none;
-}
-
-#services.page .testimonials .main-testimonials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#services.page .testimonials .tabs {
-    position: relative;
-    display: flex;
-    width: 80%;
-    align-items: center;
-    padding: 0;
-    justify-content: space-evenly;
-}
-
-#services.page .testimonials .tab {
-    display: flex;
-    scroll-margin-top: 12em;
-}
-
-#services.page .testimonials .tab>a {
-    display: flex;
-}
-
-#services.page .testimonials .tab a {
-    opacity: 50%;
-}
-
-
-#services.page .testimonials .image1:hover,
-#services.page .testimonials .image2:hover,
-#services.page .testimonials .image3:hover {
-    transition: all .5s ease-in-out;
-    transform: scale(1.1) rotate(2deg);
-    
-}
-
-#services.page .testimonials .content {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    left: 0;
-    top: 100px;
-    padding: 10px;
-    background-color: white;
-    width: 100%;
-    filter: opacity(0%);
-    transition: all .3s ease-in-out;
-}
-
-
-#services.page .testimonials li.show .content {
-    display: flex;
-    left: 0;
-    filter: opacity(100%);
-    transition: all 1s ease-in-out;
-    transition-delay: .3s;
-    box-shadow: 0px 0px 4px 0px black;
-    border-radius: 8px;
-}
-
-#services.page .testimonials .tab>a>div {
-    background-position: center center;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-#services.page .testimonials li.show a {
-    opacity: 100%;
-}
-
-#services.page .testimonials li.show a > div {
-    box-shadow: 0 0 13px black;
-}
-
-#services.page .testimonials .image1 {
-    background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.jpg");
-    transition: all .5s ease-in-out;
-}
-
-#services.page .testimonials .image2 {
-    background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.jpg");
-    transition: all .5s ease-in-out;
-}
-
-#services.page .testimonials .image3 {
-    background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.jpg");
-    transition: all .5s ease-in-out;
-}
-
-#services.page .testimonials .testimonial-container {
-    position: relative;
-    padding: 15px;
-}
-
-#services.page .testimonials p {
-    display: inline;
-    margin: 0;
-    font-size: 1.3em;
-}
-
-#services.page .testimonials .qhote {
-    width: 17px;
-    margin-right: 3px;
-    margin-left: 3px;
-}
-
-#services.page .testimonials .testimonial-name {
-    font-weight: bold;
-}
- */
-
-
 @media (min-width: 576px) {
 
-    
-/* 
-    #services.page .pratice-area .services .service {
-        width: 230px;
-        height: 200px;
-    } */
-
-    
-    /* #services.page .pratice-area .services .service p {
-        font-size: 1.4em;
-    } */
 
     #services.page .pratice-areas .cards-border .card-border {
         width: 70%;
@@ -478,50 +191,20 @@ scroll-margin-top: -2em;
         width: 50px;
         margin: 10px 10px;
     }
-/* 
-    #services.page .realizations .all-realizations .realization .realization-title p {
-        font-size: 2.2em;
-    }
 
-    #services.page .realizations .all-realizations .realization .realization-title h3 {
-        font-size: 1.4em;
-    }
-
-    #services.page .testimonials .tab>a>div {
-        width: 100px;
-        height: 100px;
-    }
-
-    #services.page .testimonials .content {
-        top: 120px;
-    }
-
-    #services.page .testimonials .main-testimonials {
-        align-self: center;
-        width: 90%;
-        max-width: 670px;
-    }
-
-    #services.page .testimonials p {
-        font-size: 1.6em;
-    }
-
-    #services.page .testimonials {
-        min-height: 700px;
-    } */
 }
 
 @media (min-width: 768px) {
+
+    #services.page header {
+        background-image: url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash@2x.png');
+    }
 
     
     #services.page .pratice-areas .cards-border{
         align-items: flex-start;
     }
-/* 
-    #services.page .pratice-area .services {
-        width: 768px;
-        margin: auto;
-    } */
+
 
     #services.page .pratice-areas .cards-border .card-border {
         width: 44%;
@@ -550,54 +233,6 @@ scroll-margin-top: -2em;
         filter: grayscale(1);
         transition: all .5s ease-in-out;
     }
-/* 
-    #services.page .realizations {
-        background-size: contain;
-        background-position: right;
-    }
 
-    #services.page .realizations .all-realizations {
-        justify-content: flex-start;
-        padding-left: 8vw;
-    } */
-
-    
 }
 
-@media (min-width: 992px) {
-
-/* 
-    #services.page .pratice-area .services {
-        width: 945px;
-        margin: 0;
-    } 
-
-    #services.page .testimonials {
-        position: relative;
-    }
-    
-    #services.page .testimonials .main-testimonials {
-        align-self: flex-end;
-    }
-
-    #services.page .testimonials .image-testimonials {
-        display: flex;
-        width: 542px;
-        position: absolute;
-        left: -84px;
-        bottom: 0px;
-    }
-*/
-}
-
-@media (min-width: 1200px) {
-
-    /* #services.page .testimonials .image-testimonials {
-        left: 6vw;
-    }
-
-    #services.page .testimonials .main-testimonials {
-        margin-right: 5vw;
-    }
-     */
-}

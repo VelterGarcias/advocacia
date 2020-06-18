@@ -8,7 +8,7 @@
 
 #contacts.page header {
     height: 170px;
-    background-image: url('/assets/images/photos/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg');
+    background-image: url('/assets/images/photos/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.png');
     filter: brightness(0.5);
     box-shadow: 0 0 8px 3px black;
 }
@@ -35,23 +35,6 @@
     padding-left: 10px;
 }
 
-
-/* #contacts.page .page-header h1 {
-    font-size: 6em;
-    line-height: 0.6em;
-    text-align: center;
-    margin-bottom: 28vh;
-    max-width: 500px;
-}
-
-#contacts.page .page-header h1 span {
-    font-size: .4em;
-    line-height: 0.4em;
-    color: var(--header-span);
-    text-shadow: 0 0 5px black;
-} */
-
-
 #contacts.page .row {
     display: flex;
     flex-direction: column;
@@ -61,160 +44,6 @@
     display: flex;
     flex-direction: column;
 }
-
-
-/* Pratice Área  */
-
-#pratice-area {
-scroll-margin-top: -2em;
-}   
-
-#contacts.page .blog-area {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 0px 80px 0px;  
-    background-color: var(--bg-blog-area);
-    box-shadow: inset 0 0 15px black;
-}
-
-#contacts.page .blog-area .articles {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-#contacts.page .blog-area .articles .card {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    /* height: 130px; */
-    margin: 10px;
-    border-radius: 3px;
-    background-color: var(--bg-service);
-    box-shadow: 2px 2px 5px 0px var(--shadow-service);
-    transition: all 0.5s ease-in-out;
-}
-
-#contacts.page .blog-area .articles .card:hover {
-    filter: grayscale(30%);
-    transition: all 0.5s ease-in-out;
-}
-/* 
-#contacts.page .blog-area .articles .card a {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    text-decoration: none;
-
-} */
-#contacts.page .blog-area .articles .card #card-img-1 {
-    background-image: url("/assets/images/photos/harmen-jelle-van-mourik-0yfWDwHOB0g-unsplash.jpg");
-}
-
-#contacts.page .blog-area .articles .card #card-img-2 {
-    background-image: url("/assets/images/photos/alex-kotliarskyi-QBpZGqEMsKg-unsplash (1).jpg");
-}
-
-#contacts.page .blog-area .articles .card #card-img-3 {
-    background-image: url("/assets/images/photos/cdc-VRpjDw3WqqI-unsplash.jpg");
-}
-
-#contacts.page .blog-area .articles .card #card-img-4 {
-    background-image: url("/assets/images/photos/harli-marten-M9jrKDXOQoU-unsplash.jpg");
-}
-
-#contacts.page .blog-area .articles .card #card-img-5 {
-    background-image: url("/assets/images/photos/alexander-mils-lCPhGxs7pww-unsplash.jpg");
-}
-
-#contacts.page .blog-area .articles .card .card-img {
-    height: 230px;
-    border-radius: 3px 3px 0 0;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(75%);
-}
-
-#contacts.page .blog-area .articles .card .card-title {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-#contacts.page .blog-area .articles .card p {
-    align-self: center;
-    margin: 0;
-    padding: 7px;
-    font-size: 1.3em;
-    font-weight: bold;
-    color: var(--service-title);
-}
-
-#contacts.page .blog-area .articles .content {
-    display: flex;
-    flex-direction: column;
-}
-
-#contacts.page .blog-area .articles .content .card-text {
-    padding: 20px 10px;
-    background-color: var(--bg-card-content);
-    flex: 1;
-}
-#contacts.page .blog-area .articles .content .card-text p {
-    color: var(--card-content-p);
-    font-size: 1em;
-    font-weight: normal;
-}
-
-#contacts.page .blog-area .articles .content .card-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--bg-card-content);
-    border-radius: 0 0 3px 3px;
-    
-}
-
-
-#contacts.page .blog-area .articles .content .card-bottom a {
-    text-decoration: none;
-    color: var(--card-border-link);
-    background: var(--bg-team-figcaption);
-    padding: 5px 25px;
-    border-radius: 3px;
-    transition: all .3s ease-in-out;
-}
-
-#contacts.page .blog-area .articles .content .card-bottom a:hover,
-#contacts.page .blog-area .articles .content .card-bottom a:active {
-    filter: drop-shadow(2px 4px 6px black);
-    background: var(--card-border-link-hover);
-    transition: all .3s ease-in-out;
-}
-
-
-
-#contacts.page .blog-area .articles .content .card-bottom p {
-    color: var(--card-content-p);
-    font-size: .8em;
-    padding-left: 17px;
-    font-weight: normal;
-}
-
-#contacts.page .blog-area .articles .content {
-    width: 100%;
-}
-
-
-
-
-
-
-
-
 
 
 /* Seção do Formulário */
@@ -320,7 +149,7 @@ form button:active {
 }
 
 
-/* Realizations */
+/* Horário de Funcionamento */
 
 #contacts.page .opening-hours {
     display: flex;
@@ -343,57 +172,10 @@ form button:active {
 #contacts.page .opening-hours div p {
     margin: 0;
     color: white;
-    font-size: 1.3em;
 }
 
 
-
-
-/* 
-#contacts.page .realizations .all-realizations {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-#contacts.page .realizations .all-realizations .realization {
-    display: flex;
-    flex-direction: column;
-    width: 120px;
-    margin: 10px;
-    border-radius: 3px;
-}
-
-#contacts.page .realizations .all-realizations .realization img {
-    width: 100%;
-}
-
-#contacts.page .realizations .all-realizations .realization .realization-title {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-}
-
-#contacts.page .realizations .all-realizations .realization .realization-title p {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 0;
-    color: var(--color-title);
-}
-
-#contacts.page .realizations .all-realizations .realization .realization-title h3 {
-    color: var(--color-subtitle);
-    font-size: 1.2em;
-    font-weight: normal;
-    margin: 0;
-    text-align: center;
-}
-*/
-
-/* Testimonials */
+/* Localização */
 
 
 
@@ -421,126 +203,6 @@ form button:active {
 }
 
 
-#contacts.page .testimonials .image-testimonials {
-    display: none;
-}
-
-#contacts.page .testimonials .main-testimonials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#contacts.page .testimonials .tabs {
-    position: relative;
-    display: flex;
-    width: 80%;
-    align-items: center;
-    padding: 0;
-    justify-content: space-evenly;
-}
-
-#contacts.page .testimonials .tab {
-    display: flex;
-    scroll-margin-top: 12em;
-}
-
-#contacts.page .testimonials .tab>a {
-    display: flex;
-}
-
-#contacts.page .testimonials .tab a {
-    opacity: 50%;
-}
-
-
-#contacts.page .testimonials .image1:hover,
-#contacts.page .testimonials .image2:hover,
-#contacts.page .testimonials .image3:hover {
-    transition: all .5s ease-in-out;
-    transform: scale(1.1) rotate(2deg);
-    
-}
-
-#contacts.page .testimonials .content {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    left: 0;
-    top: 100px;
-    padding: 10px;
-    background-color: white;
-    width: 100%;
-    filter: opacity(0%);
-    transition: all .3s ease-in-out;
-}
-
-
-#contacts.page .testimonials li.show .content {
-    display: flex;
-    left: 0;
-    filter: opacity(100%);
-    transition: all 1s ease-in-out;
-    transition-delay: .3s;
-    box-shadow: 0px 0px 4px 0px black;
-    border-radius: 8px;
-}
-
-#contacts.page .testimonials .tab>a>div {
-    background-position: center center;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-#contacts.page .testimonials li.show a {
-    opacity: 100%;
-}
-
-#contacts.page .testimonials li.show a > div {
-    box-shadow: 0 0 13px black;
-}
-
-#contacts.page .testimonials .image1 {
-    background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.jpg");
-    transition: all .5s ease-in-out;
-}
-
-#contacts.page .testimonials .image2 {
-    background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.jpg");
-    transition: all .5s ease-in-out;
-}
-
-#contacts.page .testimonials .image3 {
-    background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.jpg");
-    transition: all .5s ease-in-out;
-}
-
-#contacts.page .testimonials .testimonial-container {
-    position: relative;
-    padding: 15px;
-}
-
-#contacts.page .testimonials p {
-    display: inline;
-    margin: 0;
-    font-size: 1.3em;
-}
-
-#contacts.page .testimonials .qhote {
-    width: 17px;
-    margin-right: 3px;
-    margin-left: 3px;
-}
-
-#contacts.page .testimonials .testimonial-name {
-    font-weight: bold;
-}
- 
 
 @media (min-width: 576px) {
 
@@ -549,18 +211,8 @@ form button:active {
         margin: auto;
     }
 
-    
-
-    #contacts.page .blog-area .articles .card {
-        width: 80%;
-    }
-
     #contacts.page .section-title h2 {
         font-size: 2.7em;
-    }
-
-    #contacts.page .blog-area .articles .card p {
-        font-size: 1.4em;
     }
 
     #contacts.page .location a.map {
@@ -569,79 +221,21 @@ form button:active {
         border-radius: 3px;
     }
 
-/* 
-    #contacts.page .team .cards-border .card-border {
-        width: 70%;
-    }
-
-    #contacts.page .team .cards-border .card-border figure figcaption h3 {
-        font-size: 1.8em;
-    }
-
-    #contacts.page .team .cards-border .card-border  .card-border-title ul li {
-        font-size: 1.2em;
-    }
-
-    #contacts.page .team .cards-border .card-border  .card-border-title .card-social-links img {
-        width: 50px;
-        margin: 10px 10px;
-    }
-
-    #contacts.page .realizations .all-realizations .realization .realization-title p {
-        font-size: 2.2em;
-    }
-
-    #contacts.page .realizations .all-realizations .realization .realization-title h3 {
-        font-size: 1.4em;
-    }
-
-    #contacts.page .testimonials .tab>a>div {
-        width: 100px;
-        height: 100px;
-    }
-
-    #contacts.page .testimonials .content {
-        top: 120px;
-    }
-
-    #contacts.page .testimonials .main-testimonials {
-        align-self: center;
-        width: 90%;
-        max-width: 670px;
-    }
-
-    #contacts.page .testimonials p {
-        font-size: 1.6em;
-    }
-
-    #contacts.page .testimonials {
-        min-height: 700px;
-    } */
 }
 
 @media (min-width: 768px) {
     
+    #contacts.page header {
+        background-image: url('/assets/images/photos/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash@2x.png');
+    }
 
     form {
         width: 70%;
         margin: auto;
     }
 
-    #contacts.page .blog-area .articles .card {
-        width: 90%;
-        flex-direction: row;
-    }
-
-    #contacts.page .blog-area .articles .content {
-        width: 60%;
-    }
-
-    #contacts.page .blog-area .articles .card .card-img {
-        height: initial;
-        width: 40%;
-        border-radius: 3px 0 0 3px;
-        background-image: url("/assets/images/photos/laptop-3196481_1920.jpg");
-        background-size: cover;
+    #contacts.page .opening-hours div p {
+        font-size: 1.3em;
     }
 
     #contacts.page .location a.map {
@@ -650,57 +244,6 @@ form button:active {
         border-radius: 3px;
     }
 
-
-    /* #contacts.page .blog-area .articles .card {
-        width: 60%;
-    } */
-
-/*     
-    #contacts.page .team .cards-border{
-        align-items: flex-start;
-    } */
-
-    
-/* 
-    #contacts.page .team .cards-border .card-border {
-        width: 44%;
-        margin: 40px 20px;
-    }
-
-    #contacts.page .team .cards-border .card-border figure figcaption h3 {
-        font-size: 1.2em;
-    }
-
-    #contacts.page .team .cards-border .card-border  .card-border-title ul li {
-        font-size: 1em;
-    }
-
-    #contacts.page .team .cards-border .card-border  .card-border-title .card-social-links img {
-        width: 35px;
-        margin: 10px 5px;
-    }
-
-    #contacts.page .team .cards-border .card-border figure img {
-        filter: none;
-        transition: all .5s ease-in-out;
-    }
-    
-    #contacts.page .team .cards-border .card-border figure img:hover {
-        filter: grayscale(1);
-        transition: all .5s ease-in-out;
-    }
-
-    #contacts.page .realizations {
-        background-size: contain;
-        background-position: right;
-    }
-
-    #contacts.page .realizations .all-realizations {
-        justify-content: flex-start;
-        padding-left: 8vw;
-    } */
-
-    
 }
 
 @media (min-width: 992px) {
@@ -746,51 +289,4 @@ form button:active {
         font-size: 1.7em;
     }
 
-    
-/* 
-    #contacts.page .testimonials {
-        position: relative;
-    }
-    
-    #contacts.page .testimonials .main-testimonials {
-        align-self: flex-end;
-    }
-
-    #contacts.page .testimonials .image-testimonials {
-        display: flex;
-        width: 542px;
-        position: absolute;
-        left: -84px;
-        bottom: 0px;
-    } */
-
-}
-
-@media (min-width: 1200px) {
-    
-
-    #contacts.page .blog-area .articles .card {
-        width: 80%;
-    }
-
-    #contacts.page .blog-area .articles .card p {
-        font-size: 1.6em;
-    }
-
-    #contacts.page .blog-area .articles .content .card-text p {
-        font-size: 1.2em;
-    }
-
-    #contacts.page .blog-area .articles .content .card-bottom p {
-        font-size: 1em;
-    }
-
-/*     
-    #contacts.page .testimonials .image-testimonials {
-        left: 6vw;
-    }
-
-    #contacts.page .testimonials .main-testimonials {
-        margin-right: 5vw;
-    } */
 }

@@ -10,7 +10,7 @@
     justify-content: flex-end;
     flex-direction: column;
     height: 97vh;
-    background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash.jpg');
+    background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash.png');
     background-size: cover;
     background-position: center center;
     
@@ -19,8 +19,8 @@
 
 #home.home-page .page-header .home-title {
     position: absolute;
-    bottom: 20vh;
-    
+    bottom: 21vh;
+
 }
 
 #home.home-page .page-header h1 {
@@ -388,17 +388,17 @@ scroll-margin-top: -2em;
 }
 
 #home.home-page .testimonials .image1 {
-    background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.jpg");
+    background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.png");
     transition: all .5s ease-in-out;
 }
 
 #home.home-page .testimonials .image2 {
-    background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.jpg");
+    background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.png");
     transition: all .5s ease-in-out;
 }
 
 #home.home-page .testimonials .image3 {
-    background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.jpg");
+    background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.png");
     transition: all .5s ease-in-out;
 }
 
@@ -581,7 +581,9 @@ scroll-margin-top: -2em;
 
 @media (min-width: 992px) {
 
-    
+    #home.home-page header {
+        background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash@2x.png');
+    }
 
 
     #home.home-page .pratice-area .services {
