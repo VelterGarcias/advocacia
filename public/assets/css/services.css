@@ -7,6 +7,7 @@
 #services.page header {
     height: 170px;
     background-image: url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash.png');
+    background-image: -webkit-image-set(url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash.webp')1x );
     filter: brightness(0.5);
     box-shadow: 0 0 8px 3px black;
 }
@@ -98,6 +99,10 @@
     width: 100%;
     margin: 0;
     z-index: 2;
+}
+
+#services.page .pratice-areas .cards-border .card-border figure picture {
+    display: flex;
 }
 
 #services.page .pratice-areas .cards-border .card-border figure figcaption {
@@ -198,6 +203,7 @@
 
     #services.page header {
         background-image: url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash@2x.png');
+        background-image: -webkit-image-set(url('/assets/images/photos/floriane-vita-FyD3OWBuXnY-unsplash@2x.webp')1x );
     }
 
     

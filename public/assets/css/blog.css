@@ -7,6 +7,7 @@
 #blog.page header {
     height: 170px;
     background-image: url('/assets/images/photos/drew-beamer-Se7vVKzYxTI-unsplash.png');
+    background-image: -webkit-image-set(url('/assets/images/photos/drew-beamer-Se7vVKzYxTI-unsplash.webp')1x );
     filter: brightness(0.5);
     box-shadow: 0 0 8px 3px black;
 }
@@ -193,6 +194,7 @@
 
     #blog.page header {
         background-image: url('/assets/images/photos/drew-beamer-Se7vVKzYxTI-unsplash@2x.png');
+        background-image: -webkit-image-set(url('/assets/images/photos/drew-beamer-Se7vVKzYxTI-unsplash@2x.webp')1x );
     }
 
     #blog.page .blog-area .articles .card {

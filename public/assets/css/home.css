@@ -11,6 +11,7 @@
     flex-direction: column;
     height: 97vh;
     background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash.png');
+    background-image: -webkit-image-set(url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash.webp')1x );
     background-size: cover;
     background-position: center center;
     
@@ -171,6 +172,9 @@ scroll-margin-top: -2em;
     width: 100%;
     margin: 0;
     z-index: 2;
+}
+#home.home-page .team .lawyers .lawyer figure picture {
+    display: flex;
 }
 
 #home.home-page .team .lawyers .lawyer figure figcaption {
@@ -389,16 +393,19 @@ scroll-margin-top: -2em;
 
 #home.home-page .testimonials .image1 {
     background-image: url("/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.png");
+    background-image: -webkit-image-set(url('/assets/images/photos/cosmin-serban-6RP0cM4-xbk-unsplash.webp')1x );
     transition: all .5s ease-in-out;
 }
 
 #home.home-page .testimonials .image2 {
     background-image: url("/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.png");
+    background-image: -webkit-image-set(url('/assets/images/photos/courtney-cook-TSZo17r3m0s-unsplash.webp')1x );
     transition: all .5s ease-in-out;
 }
 
 #home.home-page .testimonials .image3 {
     background-image: url("/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.png");
+    background-image: -webkit-image-set(url('/assets/images/photos/gregory-hayes-2guarBycJJQ-unsplash.webp')1x );
     transition: all .5s ease-in-out;
 }
 
@@ -583,6 +590,7 @@ scroll-margin-top: -2em;
 
     #home.home-page header {
         background-image: url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash@2x.png');
+        background-image: -webkit-image-set(url('/assets/images/photos/marc-olivier-jodoin-7gQl6Rhxsvo-unsplash@2x.webp')1x );
     }
 
 
