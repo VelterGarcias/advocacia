@@ -3,4 +3,5 @@
     font-style: normal;
     font-weight: 300;
     src: url('/assets/fonts/Satisfy-Regular.ttf') format('truetype');
+    font-display: swap;
 }

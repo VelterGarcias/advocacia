@@ -69,22 +69,27 @@
 
 #blog.page .blog-area .articles .card #card-img-1 {
     background-image: url("/assets/images/photos/harmen-jelle-van-mourik-0yfWDwHOB0g-unsplash.png");
+    background-image: -webkit-image-set(url('/assets/images/photos/harmen-jelle-van-mourik-0yfWDwHOB0g-unsplash.webp')1x );
 }
 
 #blog.page .blog-area .articles .card #card-img-2 {
     background-image: url("/assets/images/photos/alex-kotliarskyi-QBpZGqEMsKg-unsplash (1).png");
+    background-image: -webkit-image-set(url('/assets/images/photos/alex-kotliarskyi-QBpZGqEMsKg-unsplash (1).webp')1x );
 }
 
 #blog.page .blog-area .articles .card #card-img-3 {
     background-image: url("/assets/images/photos/cdc-VRpjDw3WqqI-unsplash.png");
+    background-image: -webkit-image-set(url('/assets/images/photos/cdc-VRpjDw3WqqI-unsplash.webp')1x );
 }
 
 #blog.page .blog-area .articles .card #card-img-4 {
     background-image: url("/assets/images/photos/harli-marten-M9jrKDXOQoU-unsplash.png");
+    background-image: -webkit-image-set(url('/assets/images/photos/harli-marten-M9jrKDXOQoU-unsplash.webp')1x );
 }
 
 #blog.page .blog-area .articles .card #card-img-5 {
     background-image: url("/assets/images/photos/alexander-mils-lCPhGxs7pww-unsplash.png");
+    background-image: -webkit-image-set(url('/assets/images/photos/alexander-mils-lCPhGxs7pww-unsplash.webp')1x );
 }
 
 #blog.page .blog-area .articles .card .card-img {
