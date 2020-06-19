@@ -20,7 +20,7 @@
 
 #home.home-page .page-header .home-title {
     position: absolute;
-    bottom: 21vh;
+    top: calc(44vh - -74px);
 
 }
 
