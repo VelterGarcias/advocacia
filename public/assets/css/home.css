@@ -430,7 +430,7 @@ scroll-margin-top: -2em;
     font-weight: bold;
 }
 
-@media (max-height: 350px) and (min-width: 390px) {
+@media (max-height: 420px) and (min-width: 390px) {
     #home.home-page .page-header .home-title {
         top: 44vh;
     }
