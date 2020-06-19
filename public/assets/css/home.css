@@ -20,7 +20,7 @@
 
 #home.home-page .page-header .home-title {
     position: absolute;
-    top: calc(44vh - -74px);
+    top: calc(44vh + 74px);
 
 }
 
@@ -428,6 +428,15 @@ scroll-margin-top: -2em;
 
 #home.home-page .testimonials .testimonial-name {
     font-weight: bold;
+}
+
+@media (max-height: 350px) and (min-width: 390px) {
+    #home.home-page .page-header .home-title {
+        top: 44vh;
+    }
+    #home.home-page .page-header .gif-scroll {
+        display: none;
+    }
 }
 
 @media (max-height: 475px) {
